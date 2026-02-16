@@ -1,0 +1,77 @@
+customer_id,first_name,last_name,email,city,state,signup_date,total_orders,total_spent
+C001,Olivia,Thompson,olivia.thompson@email.com,New York,NY,2020-03-15,42,3850.75
+C002,Ethan,Garcia,ethan.garcia@email.com,Los Angeles,CA,2020-06-22,35,2940.50
+C003,Sophia,Martinez,,Phoenix,AZ,2021-01-10,18,1245.30
+C004,Liam,Johnson,liam.johnson@email.com,Houston,TX,2020-09-04,50,4999.99
+C005,Isabella,Brown,isabella.brown@email.com,Philadelphia,PA,2021-04-18,12,875.20
+C006,Noah,Williams,noah.williams@email.com,San Antonio,TX,2020-12-01,28,2150.60
+C007,Mia,Jones,mia.jones@email.com,San Diego,CA,2022-02-14,8,520.40
+C008,Lucas,Davis,lucas.davis@email.com,Dallas,TX,2020-07-30,45,4200.80
+C009,Charlotte,Miller,charlotte.miller@email.com,San Jose,CA,2021-08-25,22,1780.90
+C010,Mason,Wilson,mason.wilson@email.com,Austin,TX,2020-04-12,38,3100.25
+C011,Amelia,Moore,amelia.moore@email.com,Jacksonville,FL,2022-05-09,5,325.50
+C012,Logan,Taylor,logan.taylor@email.com,Fort Worth,TX,2021-11-17,15,1100.75
+C013,Harper,Anderson,harper.anderson@email.com,Columbus,OH,2020-08-21,33,2680.40
+C014,Alexander,Thomas,alexander.thomas@email.com,Charlotte,NC,2023-01-06,9,650.30
+C015,Evelyn,Jackson,evelyn.jackson@email.com,Indianapolis,IN,2021-03-28,27,2200.15
+C016,Henry,White,henry.white@email.com,San Francisco,CA,2020-10-14,41,3750.60
+C017,Abigail,Harris,abigail.harris@email.com,Seattle,WA,2022-07-03,14,980.45
+C018,Sebastian,Martin,sebastian.martin@email.com,Denver,CO,2021-06-19,20,1550.80
+C019,Emily,Thompson,emily.thompson@email.com,Nashville,TN,2020-02-08,48,4500.25
+C020,Jack,Garcia,,El Paso,TX,2023-04-22,3,175.90
+C021,Ella,Martinez,ella.martinez@email.com,Washington,DC,2021-09-11,25,1950.70
+C022,Owen,Robinson,owen.robinson@email.com,Boston,MA,2020-05-27,36,3200.45
+C023,Scarlett,Clark,scarlett.clark@email.com,Portland,OR,2022-10-15,11,780.20
+C024,James,Rodriguez,james.rodriguez@email.com,Memphis,TN,2021-01-30,19,1425.60
+C025,Grace,Lewis,grace.lewis@email.com,Louisville,KY,2020-11-08,30,2450.35
+C026,Benjamin,Lee,benjamin.lee@email.com,Baltimore,MD,2023-06-14,6,410.80
+C027,Chloe,Walker,chloe.walker@email.com,Milwaukee,WI,2021-07-22,23,1820.50
+C028,William,Hall,william.hall@email.com,Albuquerque,NM,2020-09-16,39,3500.90
+C029,Lily,Allen,lily.allen@email.com,Tucson,AZ,2022-03-05,10,725.15
+C030,Elijah,Young,elijah.young@email.com,Fresno,CA,2021-12-20,16,1200.40
+C031,Aria,Hernandez,aria.hernandez@email.com,Sacramento,CA,2020-04-03,44,4100.75
+C032,Daniel,King,daniel.king@email.com,Kansas City,MO,2023-08-29,4,280.60
+C033,Penelope,Wright,penelope.wright@email.com,Mesa,AZ,2021-05-14,21,1650.30
+C034,Matthew,Lopez,matthew.lopez@email.com,Atlanta,GA,2020-07-08,37,3350.85
+C035,Layla,Hill,layla.hill@email.com,Omaha,NE,2022-11-01,7,490.20
+C036,Jackson,Scott,jackson.scott@email.com,Colorado Springs,CO,2021-02-25,26,2050.40
+C037,Riley,Green,riley.green@email.com,Raleigh,NC,2020-10-30,34,2900.55
+C038,David,Adams,david.adams@email.com,Miami,FL,2023-03-17,8,575.90
+C039,Zoey,Baker,zoey.baker@email.com,Virginia Beach,VA,2021-08-06,17,1300.25
+C040,Samuel,Gonzalez,samuel.gonzalez@email.com,Minneapolis,MN,2020-06-12,43,3950.80
+C041,Nora,Nelson,nora.nelson@email.com,Tampa,FL,2022-09-24,13,920.45
+C042,Joseph,Carter,joseph.carter@email.com,Tulsa,OK,2021-04-09,24,1900.60
+C043,Hannah,Mitchell,hannah.mitchell@email.com,Arlington,TX,2020-01-20,47,4350.30
+C044,Gabriel,Perez,gabriel.perez@email.com,New Orleans,LA,2023-07-11,2,125.80
+C045,Addison,Roberts,,Bakersfield,CA,2022-01-28,10,
+C046,Anthony,Turner,anthony.turner@email.com,Wichita,KS,2021-10-15,29,2350.45
+C047,Stella,Phillips,stella.phillips@email.com,Cleveland,OH,2020-08-03,32,2750.70
+C048,Dylan,Campbell,dylan.campbell@email.com,Aurora,CO,2023-05-06,5,350.20
+C049,Audrey,Parker,audrey.parker@email.com,Anaheim,CA,2021-06-28,20,1575.85
+C050,Christopher,Evans,christopher.evans@email.com,Honolulu,HI,2020-03-22,40,3650.40
+C051,Hazel,Edwards,hazel.edwards@email.com,Pittsburgh,PA,2022-08-14,9,630.55
+C052,John,Collins,john.collins@email.com,Lexington,KY,2021-11-30,22,1700.90
+C053,Violet,Stewart,violet.stewart@email.com,St. Louis,MO,2020-05-17,31,2550.25
+C054,Andrew,Sanchez,andrew.sanchez@email.com,Stockton,CA,2023-09-08,3,210.40
+C055,Lucy,Morris,lucy.morris@email.com,Anchorage,AK,2021-03-11,15,1125.60
+C056,Joshua,Rogers,joshua.rogers@email.com,Cincinnati,OH,2020-12-25,38,3400.75
+C057,Savannah,Reed,savannah.reed@email.com,Henderson,NV,2022-06-18,12,845.30
+C058,Ryan,Cook,ryan.cook@email.com,Greensboro,NC,2021-09-02,27,2100.80
+C059,Claire,Morgan,claire.morgan@email.com,Plano,TX,2020-02-14,46,4250.15
+C060,Nathan,Bell,nathan.bell@email.com,Lincoln,NE,2023-11-23,1,45.99
+C061,Bella,Murphy,bella.murphy@email.com,Orlando,FL,2021-07-05,18,1380.50
+C062,Isaac,Bailey,isaac.bailey@email.com,Irvine,CA,2020-09-28,35,3050.65
+C063,Aurora,Rivera,aurora.rivera@email.com,Jersey City,NJ,2022-12-10,8,560.40
+C064,Caleb,Cooper,caleb.cooper@email.com,Chandler,AZ,2021-01-19,23,1825.90
+C065,Ellie,Richardson,ellie.richardson@email.com,Boise,ID,2020-06-05,42,3800.20
+C066,Thomas,Cox,thomas.cox@email.com,Richmond,VA,2023-02-27,6,425.75
+C067,Paisley,Howard,paisley.howard@email.com,Spokane,WA,2022-04-16,11,790.30
+C068,Hunter,Ward,hunter.ward@email.com,Des Moines,IA,2021-10-08,26,2000.55
+C069,Naomi,Torres,naomi.torres@email.com,Madison,WI,2020-07-21,33,2850.80
+C070,Aaron,Peterson,aaron.peterson@email.com,Baton Rouge,LA,2023-10-05,4,295.40
+C071,Elena,Gray,elena.gray@email.com,Salt Lake City,UT,2021-05-30,19,1475.65
+C072,Jordan,Ramirez,jordan.ramirez@email.com,Birmingham,AL,2020-11-12,37,3250.90
+C073,Madison,James,madison.james@email.com,Rochester,NY,2022-07-25,14,1050.20
+C074,Luke,Watson,luke.watson@email.com,Knoxville,TN,2021-02-06,28,2250.45
+C075,Brooklyn,Brooks,brooklyn.brooks@email.com,Tacoma,WA,2020-08-18,40,3600.70
+C076,Connor,Kelly,connor.kelly@email.com,Reno,NV,2023-12-03,2,

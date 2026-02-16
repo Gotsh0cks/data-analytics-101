@@ -1,0 +1,51 @@
+employee_id,first_name,last_name,department,job_title,salary,hire_date,city,state
+E001,James,Mitchell,Engineering,Software Engineer,105000,2019-03-15,Seattle,WA
+E002,Sarah,Johnson,Sales,Sales Manager,88000,2018-06-22,Chicago,IL
+E003,Michael,Chen,Engineering,Senior Developer,125000,2018-02-10,San Francisco,CA
+E004,Emily,Rodriguez,Marketing,Marketing Coordinator,52000,2022-01-18,Austin,TX
+E005,David,Kim,Finance,Financial Analyst,72000,2020-09-05,New York,NY
+E006,Jessica,Williams,HR,HR Specialist,61000,2021-04-12,Denver,CO
+E007,Robert,Brown,Engineering,DevOps Engineer,110000,2019-08-28,Portland,OR
+E008,Amanda,Davis,Sales,Account Executive,76000,2020-11-03,Boston,MA
+E009,Christopher,Martinez,Engineering,QA Engineer,85000,2019-05-20,Seattle,WA
+E010,Laura,Anderson,Marketing,Content Strategist,63000,2022-07-14,Nashville,TN
+E011,Daniel,Taylor,Finance,Senior Accountant,82000,2018-10-01,New York,NY
+E012,Michelle,Thomas,HR,HR Manager,91000,2018-04-17,Chicago,IL
+E013,Kevin,Jackson,Engineering,Frontend Developer,98000,2020-02-24,Austin,TX
+E014,Rachel,White,Sales,Sales Representative,55000,2023-01-09,Phoenix,AZ
+E015,Steven,Harris,Engineering,Backend Developer,102000,2019-12-06,San Francisco,CA
+E016,Nicole,Clark,Marketing,Social Media Manager,58000,2022-09-30,Los Angeles,CA
+E017,Brian,Lewis,Finance,Controller,115000,2018-07-13,New York,NY
+E018,Stephanie,Robinson,Sales,Business Development Rep,48000,2023-06-21,Atlanta,GA
+E019,Andrew,Walker,Engineering,Data Engineer,112000,2020-04-08,Seattle,WA
+E020,Megan,Hall,,Marketing Analyst,67000,2021-11-15,San Diego,CA
+E021,Jason,Allen,HR,Recruiter,56000,2022-03-28,Denver,CO
+E022,Katherine,Young,Engineering,Software Engineer,107000,2019-10-14,Portland,OR
+E023,Mark,Hernandez,Sales,Regional Sales Director,120000,2018-01-22,Dallas,TX
+E024,Samantha,King,Finance,Accounts Payable Specialist,47000,2023-04-05,Minneapolis,MN
+E025,Ryan,Wright,Engineering,Security Engineer,118000,2020-06-17,San Francisco,CA
+E026,Danielle,Lopez,Marketing,Brand Manager,78000,2019-09-23,New York,NY
+E027,Tyler,Hill,Sales,Inside Sales Rep,44000,2024-01-15,Charlotte,NC
+E028,Heather,Scott,Engineering,Product Manager,130000,2018-11-08,Seattle,WA
+E029,Brandon,Green,Finance,Financial Planning Analyst,69000,2021-08-20,Chicago,IL
+E030,Courtney,Adams,HR,Benefits Coordinator,51000,2022-12-01,Houston,TX
+E031,Gregory,Baker,Engineering,Machine Learning Engineer,140000,2019-07-03,San Francisco,CA
+E032,Tiffany,Gonzalez,Sales,Sales Operations Analyst,62000,2021-02-14,Atlanta,GA
+E033,Nathan,Nelson,Marketing,SEO Specialist,57000,2023-05-19,Austin,TX
+E034,Brittany,Carter,Engineering,Full Stack Developer,108000,2020-10-26,Denver,CO
+E035,Eric,Mitchell,Finance,Senior Financial Analyst,,2019-04-11,New York,NY
+E036,Lindsey,Perez,Sales,Account Manager,73000,2020-07-30,Boston,MA
+E037,Justin,Roberts,Engineering,Cloud Architect,145000,2018-09-16,Seattle,WA
+E038,Christina,Turner,HR,Training Specialist,54000,2022-06-08,Philadelphia,PA
+E039,Adam,Phillips,Marketing,Digital Marketing Manager,85000,2019-11-25,Los Angeles,CA
+E040,Ashley,Campbell,Engineering,Software Engineer,100000,2021-01-07,Portland,OR
+E041,Patrick,Parker,Finance,Budget Analyst,65000,2023-03-14,Washington,DC
+E042,Melissa,Evans,Sales,Customer Success Manager,71000,2020-05-22,San Diego,CA
+E043,Jeremy,Edwards,Engineering,Site Reliability Engineer,,2019-02-18,San Francisco,CA
+E044,Lauren,Collins,Marketing,Event Coordinator,49000,2024-02-28,Nashville,TN
+E045,Derek,Stewart,Sales,Sales Engineer,95000,2018-12-04,Dallas,TX
+E046,Kelly,Sanchez,HR,Payroll Specialist,52000,2021-07-19,Houston,TX
+E047,Chad,Morris,Engineering,Technical Lead,135000,2018-05-30,Seattle,WA
+E048,Vanessa,Rogers,Finance,Audit Associate,55000,2023-08-12,Chicago,IL
+E049,Travis,Reed,Marketing,Graphic Designer,56000,2022-04-25,Austin,TX
+E050,Monica,Cook,Sales,VP of Sales,150000,2018-03-08,New York,NY
