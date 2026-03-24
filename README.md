@@ -23,19 +23,41 @@ All you need is a computer running Windows and a willingness to learn.
 
 ## How to Get This on Your Computer
 
-If someone shared this link with you and you are not sure what to do, here are two options:
+If someone sent you a link and you ended up on a page that looks confusing — that is **GitHub**. GitHub is a website where people store and share code. You do not need to understand GitHub to take this course. You just need to download the files once. Here is how:
 
-**Option A: Download as a ZIP (easiest)**
-1. On the GitHub page, click the green **"Code"** button near the top right
-2. Click **"Download ZIP"**
-3. Open the downloaded ZIP file and extract it somewhere easy to find (like your Desktop or Documents folder)
+### Step 1: Download the files
 
-**Option B: If you already have Git installed**
-```
-git clone <this-repo-url>
-```
+1. You should see a green button near the top of this page that says **"<> Code"**. Click it.
+2. In the dropdown that appears, click **"Download ZIP"** (it is at the bottom of the dropdown).
+3. Your browser will download a file called something like `data-analytics-101-main.zip`.
 
-Either way, you will end up with a folder called `data-analytics-101` on your computer. That folder is your course.
+### Step 2: Extract the ZIP
+
+A `.zip` file is like a compressed folder. You need to **extract** (unpack) it before you can use the files inside.
+
+1. Open your **Downloads** folder (or wherever your browser saves files).
+2. Find the file `data-analytics-101-main.zip`.
+3. **Right-click** on it and select **"Extract All..."**
+4. Choose a location you will remember — your **Desktop** or **Documents** folder works well.
+5. Click **Extract**.
+
+You will now have a folder called `data-analytics-101-main`. You can rename it to just `data-analytics-101` if you like.
+
+### Step 3: Start the course
+
+Open the folder you just extracted. Inside you will see numbered folders (`00-what-is-data-analytics`, `01-setting-up`, etc.) and this README file. You are ready to go.
+
+**Start reading at Module 0** (scroll down to the module table below, and click the link). Module 0 is just reading — no software to install yet. Module 1 will walk you through installing everything you need.
+
+### How to read the lesson files
+
+The lessons are written in `.md` files (Markdown). You have a few options for reading them:
+
+- **On GitHub** (easiest to start) — Just browse the folders and click any `.md` file. GitHub will display it nicely formatted with headings, tables, and links.
+- **In VS Code** (after Module 1) — Once VS Code is installed, open any `.md` file and press **Ctrl+Shift+V** to see a nicely formatted preview. This is how you will read lessons for the rest of the course.
+- **In Notepad** — You can open `.md` files in Notepad. They are just text, so they are readable even without formatting.
+
+You do not need to pick one — use GitHub for Module 0, then switch to VS Code once it is installed in Module 1.
 
 ## How to Navigate This Course
 
