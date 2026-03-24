@@ -76,4 +76,4 @@ For learning, Tableau Public has everything you need.
 
 You will not use Tableau until Module 5. For now, head back to the [Module 1 README](README.md) and follow the "After Installing" steps to verify your setup.
 
-Next up: [Running Your First Script](running_your_first_script.md)
+Next up: [Running Your First Script](05_running_your_first_script.md)

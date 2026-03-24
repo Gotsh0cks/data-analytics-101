@@ -145,4 +145,4 @@ You have completed Part 1 (code-based visualization). Next up is **Part 2: Table
 
 Continue to [Lesson 5: Connecting to Data in Tableau](lesson_05_tableau_connect_data.md).
 
-If you want to practice the matplotlib skills first, head to [Exercises](exercises.md) (Part 1).
+If you want to practice the matplotlib skills first, head to [Exercises](lesson_10_exercises.md) (Part 1).

@@ -115,4 +115,4 @@ If you see a version number (like `2.2.1`), everything is working. If you see an
 
 Python is installed, and you have got the key data analytics packages ready to go. Next, we will install the app where you will actually write your code.
 
-Next up: [install_vscode.md](install_vscode.md)
+Next up: [Install VS Code](02_install_vscode.md)

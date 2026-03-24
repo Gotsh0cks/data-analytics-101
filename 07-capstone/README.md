@@ -26,9 +26,9 @@ Make sure you have completed all previous modules. You will need:
 
 ## Project Guide
 
-Follow the step-by-step instructions in [project_guide.md](project_guide.md) for a structured walkthrough.
+Follow the step-by-step instructions in [Project Guide](01_project_guide.md) for a structured walkthrough.
 
-If you prefer to work independently, use [project_template.py](project_template.py) as a starter script and [example_questions.md](example_questions.md) for inspiration on what questions to answer.
+If you prefer to work independently, use [project_template.py](03_project_template.py) as a starter script and [Example Questions](02_example_questions.md) for inspiration on what questions to answer.
 
 ## Deliverables
 

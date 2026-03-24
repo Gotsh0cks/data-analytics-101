@@ -1,12 +1,12 @@
 # ============================================================
 # Module 4: Explore Downloaded Datasets
 # ============================================================
-# Run this after download_public_datasets.py to see what's
+# Run this after 02_download_public_datasets.py to see what's
 # inside each dataset. This uses the pandas skills you learned
 # in Module 1.
 #
 # Usage:
-#   python explore_downloaded_data.py
+#   python 04_explore_downloaded_data.py
 # ============================================================
 
 import os
@@ -58,7 +58,7 @@ def main():
 
     if not os.path.exists(DATA_DIR):
         print(f"Data directory not found: {DATA_DIR}")
-        print("Run download_public_datasets.py first!")
+        print("Run 02_download_public_datasets.py first!")
         return
 
     # Find all CSV files in the external data directory
@@ -69,7 +69,7 @@ def main():
 
     if not csv_files:
         print("No CSV files found in the external data directory.")
-        print("Run download_public_datasets.py first!")
+        print("Run 02_download_public_datasets.py first!")
         return
 
     csv_files.sort()

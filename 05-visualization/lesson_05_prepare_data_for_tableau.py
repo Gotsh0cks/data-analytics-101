@@ -8,7 +8,7 @@
 #   - No encoding issues
 #
 # Usage:
-#   python prepare_data_for_tableau.py
+#   python lesson_05_prepare_data_for_tableau.py
 #
 # Output:
 #   ../data/tableau_ready/

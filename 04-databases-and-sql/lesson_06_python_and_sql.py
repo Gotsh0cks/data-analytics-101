@@ -6,7 +6,7 @@
 #
 # Prerequisites:
 #   1. SQL Server running with the DataAnalytics101 database
-#      (run setup_database.sql in VS Code first — Ctrl+Shift+E)
+#      (run 00_setup_database.sql in VS Code first — Ctrl+Shift+E)
 #   2. pip install pyodbc pandas
 #
 # If SQL Server is not running, this script will show an error.
@@ -48,7 +48,7 @@ except pyodbc.Error as e:
     print()
     print("Troubleshooting:")
     print("  1. Make sure SQL Server is running (check Windows Services)")
-    print("  2. Make sure you ran setup_database.sql in VS Code (Ctrl+Shift+E)")
+    print("  2. Make sure you ran 00_setup_database.sql in VS Code (Ctrl+Shift+E)")
     print("  3. Try changing SERVER to localhost\\SQLEXPRESS")
     sys.exit(1)
 

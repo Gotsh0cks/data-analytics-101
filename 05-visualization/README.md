@@ -46,15 +46,15 @@ Most analysts use both. Code for analysis, Tableau for presentation.
 
 ## Preparing Data for Tableau
 
-Run `prepare_data_for_tableau.py` to generate clean CSV files optimized for Tableau:
+Run `lesson_05_prepare_data_for_tableau.py` to generate clean CSV files optimized for Tableau:
 
 ```bash
-python 05-visualization/prepare_data_for_tableau.py
+python 05-visualization/lesson_05_prepare_data_for_tableau.py
 ```
 
 ## Practice
 
-After completing all lessons, head to [Exercises](exercises.md) for practice problems covering both matplotlib and Tableau.
+After completing all lessons, head to [Exercises](lesson_10_exercises.md) for practice problems covering both matplotlib and Tableau.
 
 ## Prerequisites
 

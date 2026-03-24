@@ -119,4 +119,4 @@ You will develop this critical thinking throughout the course by working with re
 
 ---
 
-Next up: [Common Tools Overview](common_tools_overview.md) — learn about the tools you will use in this course and why each one matters.
+Next up: [Common Tools Overview](02_common_tools_overview.md) — learn about the tools you will use in this course and why each one matters.

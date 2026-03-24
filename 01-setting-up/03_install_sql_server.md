@@ -20,7 +20,7 @@ We will install the **free** version called SQL Server Express. It has everythin
 
 ## How Will You Write SQL?
 
-You already installed VS Code for writing Python. The good news: **VS Code can also run SQL queries.** You installed the SQL Server (mssql) extension in the previous step ([Install VS Code](install_vscode.md)), which gives VS Code the ability to connect to SQL Server and run queries — all without leaving the editor.
+You already installed VS Code for writing Python. The good news: **VS Code can also run SQL queries.** You installed the SQL Server (mssql) extension in the previous step ([Install VS Code](02_install_vscode.md)), which gives VS Code the ability to connect to SQL Server and run queries — all without leaving the editor.
 
 This means VS Code is your **single workspace** for both Python and SQL throughout this course. No need to switch between different applications.
 
@@ -146,4 +146,4 @@ That is everything you need. In the next step, we will install Tableau Public fo
 
 Before you move on, take a quick look at [common_errors.md](common_errors.md) so you know where to go if anything goes wrong later.
 
-Next up: [Install Tableau Public](install_tableau_public.md)
+Next up: [Install Tableau Public](04_install_tableau_public.md)

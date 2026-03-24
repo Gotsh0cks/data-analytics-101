@@ -74,7 +74,7 @@ Later in this course (Module 4), you will write SQL queries to talk to databases
 4. Click the blue **Install** button.
 5. Wait a few seconds for it to install.
 
-You will not use this extension until Module 4, but installing it now means your setup is complete. When you get to Module 4, the [Install SQL Server](install_sql_server.md) guide will walk you through connecting VS Code to your database.
+You will not use this extension until Module 4, but installing it now means your setup is complete. When you get to Module 4, the [Install SQL Server](03_install_sql_server.md) guide will walk you through connecting VS Code to your database.
 
 ---
 
@@ -139,4 +139,4 @@ VS Code is now set up with two extensions:
 
 You now have a proper code editor that handles both Python and SQL, and you know how to open folders and use the terminal. Time to put it to use.
 
-Next up: [running_your_first_script.md](running_your_first_script.md)
+Next up: [Running Your First Script](05_running_your_first_script.md)

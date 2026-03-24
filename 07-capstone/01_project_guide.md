@@ -6,7 +6,7 @@ Follow these steps to complete your capstone project. Each step uses skills from
 
 ## Step 1: Choose Your Dataset
 
-Pick one of the external datasets from Module 6, or find your own from the sources in `dataset_guide.md`.
+Pick one of the external datasets from Module 6, or find your own from the sources in `01_dataset_guide.md` (in Module 6).
 
 **Recommended options for your first project:**
 
@@ -19,7 +19,7 @@ Pick one of the external datasets from Module 6, or find your own from the sourc
 
 If you did not download these yet, run:
 ```bash
-python 06-real-world-data/download_public_datasets.py
+python 06-real-world-data/02_download_public_datasets.py
 ```
 
 ---
@@ -42,7 +42,7 @@ Before writing any code, open your dataset in Excel to get a feel for it.
 
 ## Step 3: Clean and Analyze with Python (Module 3 Skills)
 
-Open `project_template.py` (or create your own script) and:
+Open `03_project_template.py` (or create your own script) and:
 
 1. **Load the data** with `pd.read_csv()`
 2. **Inspect it** with `.head()`, `.info()`, `.describe()`
@@ -111,7 +111,7 @@ plt.show()
 
 ## Step 6: Build a Tableau Dashboard (Module 5, Part 2 Skills)
 
-1. Run `prepare_data_for_tableau.py` if you have not already
+1. Run `lesson_05_prepare_data_for_tableau.py` (in Module 5) if you have not already
 2. Open Tableau Public and connect to your dataset CSV
 3. Create 3-4 worksheets with different chart types
 4. Combine them into a single interactive dashboard

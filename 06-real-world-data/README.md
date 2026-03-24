@@ -23,14 +23,14 @@ Make sure you have completed Module 3 (you will need pandas) and have an interne
 
 | Lesson | Topic | Files |
 |--------|-------|-------|
-| Guide | Where to find free datasets | `dataset_guide.md` |
-| Download | Auto-download public datasets | `download_public_datasets.py` |
-| Kaggle | Download from Kaggle (optional) | `download_kaggle_dataset.py` |
-| Explore | Inspect downloaded data | `explore_downloaded_data.py` |
+| Guide | Where to find free datasets | `01_dataset_guide.md` |
+| Download | Auto-download public datasets | `02_download_public_datasets.py` |
+| Kaggle | Download from Kaggle (optional) | `03_download_kaggle_dataset.py` |
+| Explore | Inspect downloaded data | `04_explore_downloaded_data.py` |
 
 ## Practice
 
-After completing the lessons, head to `exercises.md` for hands-on practice problems.
+After completing the lessons, head to [Exercises](05_exercises.md) for hands-on practice problems.
 
 ## What Gets Downloaded
 

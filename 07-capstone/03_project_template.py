@@ -5,7 +5,7 @@
 # Replace the placeholder comments with your own code.
 #
 # Usage:
-#   python project_template.py
+#   python 03_project_template.py
 # ============================================================
 
 import pandas as pd

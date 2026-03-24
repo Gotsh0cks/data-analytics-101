@@ -13,7 +13,7 @@
 #   6. Install the kaggle package: pip install kaggle
 #
 # Usage:
-#   python download_kaggle_dataset.py
+#   python 03_download_kaggle_dataset.py
 # ============================================================
 
 import os

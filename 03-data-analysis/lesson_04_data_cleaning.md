@@ -155,4 +155,4 @@ python lesson_04_data_cleaning.py
 
 ## What's Next?
 
-Head to the [Exercises](exercises.md) to practice. Once you are done, move on to [Module 4: Databases & SQL](../04-databases-and-sql/).
+Head to the [Exercises](lesson_05_exercises.md) to practice. Once you are done, move on to [Module 4: Databases & SQL](../04-databases-and-sql/).

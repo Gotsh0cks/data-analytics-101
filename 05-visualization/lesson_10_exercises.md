@@ -65,7 +65,7 @@ Take any chart above and make it presentation-ready with seaborn styling:
 
 # Part 2: Tableau Dashboards
 
-Run `prepare_data_for_tableau.py` first, then open files from `data/tableau_ready/` in Tableau Public.
+Run `lesson_05_prepare_data_for_tableau.py` first, then open files from `data/tableau_ready/` in Tableau Public.
 
 ---
 

@@ -115,4 +115,4 @@ These are skills that employers actively look for. Your Tableau Public profile i
 
 ## What's Next?
 
-Head to `exercises.md` for a guided project that brings everything together — you'll build a complete dashboard from scratch using the external datasets.
+Head to [Exercises](lesson_10_exercises.md) for a guided project that brings everything together — you'll build a complete dashboard from scratch using the external datasets.

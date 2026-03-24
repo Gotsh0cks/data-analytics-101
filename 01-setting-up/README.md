@@ -19,16 +19,16 @@ Work through these in order:
 
 | Step | Guide | What You Are Installing |
 |------|-------|------------------------|
-| 1 | [Install Python](install_python.md) | Python 3 + pip (package manager) |
-| 2 | [Install VS Code](install_vscode.md) | Visual Studio Code + Python and SQL extensions |
-| 3 | [Install SQL Server](install_sql_server.md) | SQL Server Express (database engine) |
-| 4 | [Install Tableau Public](install_tableau_public.md) | Tableau Public (free visualization tool) |
+| 1 | [Install Python](01_install_python.md) | Python 3 + pip (package manager) |
+| 2 | [Install VS Code](02_install_vscode.md) | Visual Studio Code + Python and SQL extensions |
+| 3 | [Install SQL Server](03_install_sql_server.md) | SQL Server Express (database engine) |
+| 4 | [Install Tableau Public](04_install_tableau_public.md) | Tableau Public (free visualization tool) |
 
 ## After Installing
 
 Once everything is installed:
 
-1. Read [Running Your First Script](running_your_first_script.md) to verify Python works
+1. Read [Running Your First Script](05_running_your_first_script.md) to verify Python works
 2. Run `hello.py` to confirm your setup
 3. If anything goes wrong, check [Common Errors](common_errors.md)
 

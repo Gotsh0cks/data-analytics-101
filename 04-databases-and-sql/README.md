@@ -31,7 +31,7 @@ You might wonder: "I can already load CSV files in pandas. Why do I need SQL?"
 Make sure you have completed the SQL Server setup in Module 1. Then:
 
 1. Open **VS Code** and make sure you are in the `data-analytics-101` folder (File > Open Folder)
-2. Open the file `04-databases-and-sql/setup_database.sql` from the Explorer sidebar
+2. Open the file `04-databases-and-sql/00_setup_database.sql` from the Explorer sidebar
 3. Press **Ctrl+Shift+E** to run the entire script
 4. If VS Code asks which connection to use, select your **Local SQL Server** profile (the one you set up in Module 1)
 5. You should see messages in the results panel confirming the database and tables were created
@@ -49,7 +49,7 @@ Make sure you have completed the SQL Server setup in Module 1. Then:
 
 ## Practice
 
-After completing all lessons, head to [Exercises](exercises.md) for hands-on practice problems.
+After completing all lessons, head to [Exercises](lesson_07_exercises.md) for hands-on practice problems.
 
 ## Excel/pandas Parallels
 

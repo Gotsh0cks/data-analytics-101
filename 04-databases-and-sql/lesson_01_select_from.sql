@@ -1,7 +1,7 @@
 -- ============================================================
 -- Lesson 1: SELECT and FROM
 -- ============================================================
--- Make sure you've run setup_database.sql first!
+-- Make sure you've run 00_setup_database.sql first!
 -- Run each query one at a time to see the results.
 -- ============================================================
 

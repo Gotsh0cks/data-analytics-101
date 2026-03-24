@@ -52,7 +52,7 @@ This creates ready-to-use Excel workbooks in `data/excel/` that you will open th
 
 ## Practice
 
-After completing the lessons, test your skills with the [Exercises](exercises.md).
+After completing the lessons, test your skills with the [Exercises](lesson_06_exercises.md).
 
 ## Next Steps
 

@@ -15,7 +15,7 @@ One of the most valuable skills as a data analyst is knowing **where to find dat
 **How to use it:**
 1. Create a free account at kaggle.com
 2. Browse or search for datasets
-3. Download directly from the website, or use the Kaggle API (see `download_kaggle_dataset.py`)
+3. Download directly from the website, or use the Kaggle API (see `03_download_kaggle_dataset.py`)
 
 **Tip:** Look at the "Usability" rating on each dataset. Higher ratings mean better documentation and cleaner data.
 
@@ -95,7 +95,7 @@ One of the most valuable skills as a data analyst is knowing **where to find dat
 
 ## Datasets Used in This Course
 
-The `download_public_datasets.py` script downloads these specific datasets for use in later modules:
+The `02_download_public_datasets.py` script downloads these specific datasets for use in later modules:
 
 | Dataset | Source | Description | Rows (approx.) |
 |---------|--------|-------------|-----------------|
@@ -130,4 +130,4 @@ Before you commit to working with a dataset, ask yourself:
 
 ## Next Steps
 
-Now that you know where to find data, run `download_public_datasets.py` to grab some datasets automatically, or visit any of these sources and download something that interests you.
+Now that you know where to find data, run `02_download_public_datasets.py` to grab some datasets automatically, or visit any of these sources and download something that interests you.

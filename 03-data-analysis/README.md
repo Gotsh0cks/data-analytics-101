@@ -39,7 +39,7 @@ Each lesson has a `.md` explanation and a `.py` script you can run.
 
 ## Practice
 
-After completing the lessons, test your skills with the [Exercises](exercises.md).
+After completing the lessons, test your skills with the [Exercises](lesson_05_exercises.md).
 
 ## Datasets Used
 

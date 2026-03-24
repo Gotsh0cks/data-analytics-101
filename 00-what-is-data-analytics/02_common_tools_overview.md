@@ -148,4 +148,4 @@ You will only leave VS Code for Excel (Module 2) and Tableau (Module 5 Part 2) �
 
 ---
 
-Next up: [Careers and Skills](careers_and_skills.md) — what data analyst jobs look like and what they pay.
+Next up: [Careers and Skills](03_careers_and_skills.md) — what data analyst jobs look like and what they pay.

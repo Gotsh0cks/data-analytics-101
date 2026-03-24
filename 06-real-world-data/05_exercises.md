@@ -1,6 +1,6 @@
 # Module 4 Exercises
 
-Time to practice finding and working with external data. These exercises build on the datasets you downloaded with `download_public_datasets.py`.
+Time to practice finding and working with external data. These exercises build on the datasets you downloaded with `02_download_public_datasets.py`.
 
 ---
 
@@ -48,7 +48,7 @@ Load `../data/external/iris.csv` and compare the three flower species:
 
 ## Exercise 4: Find Your Own Dataset
 
-Visit one of the sources listed in `dataset_guide.md` and download a dataset that interests you. Then:
+Visit one of the sources listed in `01_dataset_guide.md` and download a dataset that interests you. Then:
 
 1. Load it into pandas
 2. Print the shape, column names, and data types

@@ -7,7 +7,7 @@
 # No accounts or API keys needed — just run this script!
 #
 # Usage:
-#   python download_public_datasets.py
+#   python 02_download_public_datasets.py
 #
 # Files are saved to: ../data/external/
 # ============================================================
@@ -109,7 +109,7 @@ def main():
 
     print()
     print("Next steps:")
-    print("  1. Run explore_downloaded_data.py to see what's in each file")
+    print("  1. Run 04_explore_downloaded_data.py to see what's in each file")
     print("  2. Continue to Module 5 to load these into a SQL database")
 
 

@@ -148,4 +148,4 @@ As you get more comfortable with SQL, you'll naturally start using these for mor
 
 ## What's Next?
 
-You have completed the core SQL lessons. There is one more: [Lesson 6: Python + SQL Server](lesson_06_python_and_sql.md) — where you learn to run SQL queries from Python and get results as pandas DataFrames. After that, head to [exercises.md](exercises.md) to practice.
+You have completed the core SQL lessons. There is one more: [Lesson 6: Python + SQL Server](lesson_06_python_and_sql.md) — where you learn to run SQL queries from Python and get results as pandas DataFrames. After that, head to [Exercises](lesson_07_exercises.md) to practice.
