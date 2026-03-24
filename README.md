@@ -1,15 +1,15 @@
 # Data Analytics 101
 
-A beginner-friendly guide to data analytics. No prior technical experience required.
+A beginner-friendly, hands-on guide to data analytics. No prior technical experience required.
 
-This repository will teach you the fundamental skills every data analyst needs:
+This course teaches you to think critically about data and use the same tools that professional data analysts use every day:
 
-1. **Working with spreadsheet data** using Python and pandas
-2. **Creating charts and visualizations** using matplotlib
-3. **Querying databases** using SQL (T-SQL / SQL Server)
-4. **Finding and using external datasets** from public sources
-5. **Practicing SQL locally** with SQLite — no server needed
-6. **Building interactive dashboards** with Tableau Public
+1. **Understanding data** — what analytics is, how to think about data problems
+2. **Spreadsheets** — hands-on Excel for formulas, pivot tables, and charts
+3. **Python** — pandas for loading, cleaning, and analyzing data at scale
+4. **SQL** — querying databases with T-SQL and SQL Server
+5. **Visualization** — matplotlib for code-based charts, Tableau for interactive dashboards
+6. **Real-world data** — finding, downloading, and evaluating external datasets
 
 ## Who Is This For?
 
@@ -25,23 +25,24 @@ All you need is a computer running Windows and a willingness to learn.
 
 Work through the modules **in order**. Each one builds on what you learned before.
 
-| Module | What You'll Learn | Time Estimate |
+| Module | What You Will Learn | Time Estimate |
 |--------|-------------------|---------------|
-| [Module 0: Getting Started](00-getting-started/) | Install the tools you need | 1-2 hours |
-| [Module 1: Excel Analysis](01-excel-analysis/) | Load, filter, sort, and summarize data | 3-4 hours |
-| [Module 2: Visualization](02-visualization/) | Create bar charts, line charts, and more | 2-3 hours |
-| [Module 3: SQL Basics](03-sql-basics/) | Write queries to pull data from databases | 3-4 hours |
-| [Module 4: External Datasets](04-external-datasets/) | Find and download real-world datasets | 1-2 hours |
-| [Module 5: SQLite Practice](05-sqlite-practice/) | Build a local SQL database and query it | 3-4 hours |
-| [Module 6: Tableau Public](06-tableau/) | Create interactive dashboards | 3-4 hours |
+| [Module 0: What Is Data Analytics](00-what-is-data-analytics/) | Concepts, tools overview, career paths | 30-45 min |
+| [Module 1: Setting Up](01-setting-up/) | Install Python, VS Code, SQL Server, Tableau | 1-2 hours |
+| [Module 2: Spreadsheets](02-spreadsheets/) | Excel: formulas, sorting, pivot tables, charts | 2-3 hours |
+| [Module 3: Data Analysis](03-data-analysis/) | Python + pandas: load, filter, aggregate, clean | 3-4 hours |
+| [Module 4: Databases & SQL](04-databases-and-sql/) | T-SQL: queries, joins, aggregations, Python+SQL | 4-5 hours |
+| [Module 5: Visualization](05-visualization/) | matplotlib + Tableau: charts and dashboards | 4-5 hours |
+| [Module 6: Real-World Data](06-real-world-data/) | Find and download external datasets | 1-2 hours |
+| [Module 7: Capstone Project](07-capstone/) | End-to-end project using all your skills | 3-5 hours |
 
 There are also [cheatsheets](cheatsheets/) you can print out and keep nearby as quick references.
 
 ## Getting Started
 
-**Start here:** [Module 0 - Getting Started](00-getting-started/)
+**Start here:** [Module 0 - What Is Data Analytics](00-what-is-data-analytics/)
 
-This module walks you through installing everything you need, step by step, with explanations of what each tool does and why you need it.
+This module explains what data analytics is, what tools you will learn, and what kind of career it can lead to. Then Module 1 walks you through installing everything.
 
 ## Sample Data
 
@@ -51,7 +52,7 @@ All lessons use the same three datasets located in the [data/](data/) folder:
 - **employees.csv** - Employee records with departments and salaries
 - **customers.csv** - Customer information and spending history
 
-Module 4 also teaches you to download external datasets (Titanic, Iris, Tips, World Happiness) into `data/external/`, and Module 5 loads everything into a SQLite database.
+Module 6 also teaches you to download external datasets (Titanic, Iris, Tips, World Happiness) into `data/external/`.
 
 Using the same data across all modules helps you see how the same questions can be answered with different tools.
 
@@ -59,6 +60,6 @@ Using the same data across all modules helps you see how the same questions can 
 
 - A computer running Windows 10 or 11
 - An internet connection (for downloading tools)
-- About 2 GB of free disk space
+- About 3 GB of free disk space
 
-Everything else is covered in Module 0.
+Everything else is covered in Modules 0 and 1.

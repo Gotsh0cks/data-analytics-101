@@ -1,0 +1,102 @@
+date,product,category,region,quantity,unit_price,revenue
+2024-01-05,Laptop,Electronics,North,2,999.99,1999.98
+2024-01-08,Monitor,Electronics,South,1,349.99,349.99
+2024-01-12,Keyboard,Accessories,East,5,79.99,399.95
+2024-01-15,Mouse,Accessories,West,10,29.99,299.9
+2024-01-18,Headset,Accessories,North,3,59.99,179.97
+2024-01-22,Webcam,Electronics,South,4,89.99,359.96
+2024-01-26,Desk Chair,Furniture,East,1,399.99,399.99
+2024-01-30,Standing Desk,Furniture,West,2,549.99,1099.98
+2024-02-03,Laptop,Electronics,East,1,999.99,999.99
+2024-02-07,Mouse,Accessories,North,8,29.99,239.92
+2024-02-10,Monitor,Electronics,West,3,349.99,1049.97
+2024-02-14,Keyboard,Accessories,South,6,79.99,479.94
+2024-02-18,Headset,Accessories,East,2,59.99,119.98
+2024-02-22,Webcam,Electronics,North,5,89.99,449.95
+2024-02-25,Desk Chair,Furniture,South,2,399.99,799.98
+2024-02-28,Standing Desk,Furniture,West,1,549.99,549.99
+2024-03-04,Laptop,Electronics,South,3,999.99,2999.97
+2024-03-08,Mouse,Accessories,East,12,29.99,359.88
+2024-03-11,Monitor,Electronics,North,2,349.99,699.98
+2024-03-15,Keyboard,Accessories,West,4,79.99,319.96
+2024-03-18,Headset,Accessories,South,7,59.99,419.93
+2024-03-22,Webcam,Electronics,East,3,89.99,269.97
+2024-03-25,Desk Chair,Furniture,North,1,399.99,399.99
+2024-03-29,Standing Desk,Furniture,South,2,549.99,1099.98
+2024-04-02,Laptop,Electronics,West,1,999.99,999.99
+2024-04-06,Mouse,Accessories,South,15,29.99,449.85
+2024-04-09,Monitor,Electronics,East,1,349.99,349.99
+2024-04-13,Keyboard,Accessories,North,3,79.99,239.97
+2024-04-16,Headset,Accessories,West,5,59.99,
+2024-04-20,Webcam,Electronics,South,2,89.99,179.98
+2024-04-23,Desk Chair,Furniture,East,3,399.99,1199.97
+2024-04-27,Standing Desk,Furniture,North,1,549.99,549.99
+2024-05-01,Laptop,Electronics,North,2,999.99,1999.98
+2024-05-05,Mouse,Accessories,West,6,29.99,179.94
+2024-05-08,Monitor,Electronics,South,4,349.99,1399.96
+2024-05-12,Keyboard,Accessories,East,8,79.99,639.92
+2024-05-15,Headset,Accessories,North,4,59.99,239.96
+2024-05-19,Webcam,Electronics,West,1,89.99,89.99
+2024-05-22,Desk Chair,Furniture,South,2,399.99,799.98
+2024-05-26,Standing Desk,Furniture,East,1,549.99,549.99
+2024-05-30,Laptop,Electronics,East,1,999.99,999.99
+2024-06-03,Mouse,Accessories,North,9,29.99,269.91
+2024-06-06,Monitor,Electronics,West,2,349.99,699.98
+2024-06-10,Keyboard,Accessories,South,5,79.99,399.95
+2024-06-13,Headset,Accessories,East,3,59.99,179.97
+2024-06-17,Webcam,Electronics,North,6,89.99,539.94
+2024-06-20,Desk Chair,Furniture,West,1,399.99,399.99
+2024-06-24,Standing Desk,Furniture,South,3,549.99,1649.97
+2024-06-27,Laptop,Electronics,South,4,999.99,3999.96
+2024-07-01,Mouse,Accessories,East,7,29.99,209.93
+2024-07-05,Monitor,Electronics,North,1,349.99,349.99
+2024-07-08,Keyboard,Accessories,West,10,79.99,799.9
+2024-07-12,Headset,Accessories,South,2,59.99,119.98
+2024-07-15,Webcam,Electronics,East,4,89.99,359.96
+2024-07-19,Desk Chair,Furniture,North,2,399.99,799.98
+2024-07-22,Standing Desk,Furniture,West,1,549.99,549.99
+2024-07-26,Laptop,Electronics,West,2,999.99,
+2024-07-30,Mouse,Accessories,South,11,29.99,329.89
+2024-08-02,Monitor,Electronics,East,3,349.99,1049.97
+2024-08-06,Keyboard,Accessories,North,4,79.99,319.96
+2024-08-09,Headset,Accessories,West,6,59.99,359.94
+2024-08-13,Webcam,Electronics,South,2,89.99,179.98
+2024-08-16,Desk Chair,Furniture,East,1,399.99,399.99
+2024-08-20,Standing Desk,Furniture,North,2,549.99,1099.98
+2024-08-23,Laptop,Electronics,North,3,999.99,2999.97
+2024-08-27,Mouse,Accessories,East,5,29.99,149.95
+2024-08-30,Monitor,Electronics,West,2,349.99,699.98
+2024-09-03,Keyboard,Accessories,South,7,79.99,559.93
+2024-09-06,Headset,Accessories,North,3,59.99,179.97
+2024-09-10,Webcam,Electronics,East,5,89.99,449.95
+2024-09-13,Desk Chair,Furniture,West,2,399.99,799.98
+2024-09-17,Standing Desk,Furniture,South,1,549.99,549.99
+2024-09-20,Laptop,Electronics,South,1,999.99,999.99
+2024-09-24,Mouse,Accessories,West,14,29.99,419.86
+2024-09-27,Monitor,Electronics,North,3,349.99,1049.97
+2024-10-01,Keyboard,Accessories,East,6,79.99,479.94
+2024-10-04,Headset,Accessories,South,4,59.99,
+2024-10-08,Webcam,Electronics,West,3,89.99,269.97
+2024-10-11,Desk Chair,Furniture,North,1,399.99,399.99
+2024-10-15,Standing Desk,Furniture,East,2,549.99,1099.98
+2024-10-18,Laptop,Electronics,East,2,999.99,1999.98
+2024-10-22,Mouse,Accessories,North,8,29.99,239.92
+2024-10-25,Monitor,Electronics,South,1,349.99,349.99
+2024-10-29,Keyboard,Accessories,West,3,79.99,239.97
+2024-11-02,Headset,Accessories,East,5,59.99,299.95
+2024-11-05,Webcam,Electronics,North,2,89.99,179.98
+2024-11-09,Desk Chair,Furniture,South,3,399.99,1199.97
+2024-11-12,Standing Desk,Furniture,West,1,549.99,549.99
+2024-11-16,Laptop,Electronics,West,5,999.99,4999.95
+2024-11-19,Mouse,Accessories,South,10,29.99,299.9
+2024-11-23,Monitor,Electronics,East,2,349.99,699.98
+2024-11-26,Keyboard,Accessories,North,9,79.99,719.91
+2024-12-01,Headset,Accessories,West,4,59.99,239.96
+2024-12-04,Webcam,Electronics,South,7,89.99,629.93
+2024-12-08,Desk Chair,Furniture,East,2,399.99,799.98
+2024-12-11,Standing Desk,Furniture,North,1,549.99,549.99
+2024-12-15,Laptop,Electronics,North,3,999.99,2999.97
+2024-12-18,Mouse,Accessories,East,6,29.99,179.94
+2024-12-22,Monitor,Electronics,West,4,349.99,
+2024-12-26,Keyboard,Accessories,South,5,79.99,399.95
+2024-12-29,Headset,Accessories,North,2,59.99,119.98
