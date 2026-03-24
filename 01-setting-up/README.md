@@ -2,13 +2,12 @@
 
 ## What This Module Covers
 
-In this module, you will install everything you need for the entire course. We will set up five tools:
+In this module, you will install everything you need for the entire course. We will set up four tools:
 
 1. **Python** — The programming language you will use for data analysis
-2. **VS Code** — A free code editor where you will write and run Python scripts
+2. **VS Code** — A free code editor where you will write and run both Python scripts and SQL queries (your home base for the whole course)
 3. **SQL Server** — A database engine where you will practice SQL queries
-4. **Azure Data Studio** — A free app for connecting to SQL Server and running queries
-5. **Tableau Public** — A free tool for creating interactive dashboards
+4. **Tableau Public** — A free tool for creating interactive dashboards
 
 ## Before You Start
 
@@ -21,8 +20,8 @@ Work through these in order:
 | Step | Guide | What You Are Installing |
 |------|-------|------------------------|
 | 1 | [Install Python](install_python.md) | Python 3 + pip (package manager) |
-| 2 | [Install VS Code](install_vscode.md) | Visual Studio Code (code editor) |
-| 3 | [Install SQL Server](install_sql_server.md) | SQL Server Express + Azure Data Studio |
+| 2 | [Install VS Code](install_vscode.md) | Visual Studio Code + Python and SQL extensions |
+| 3 | [Install SQL Server](install_sql_server.md) | SQL Server Express (database engine) |
 | 4 | [Install Tableau Public](install_tableau_public.md) | Tableau Public (free visualization tool) |
 
 ## After Installing

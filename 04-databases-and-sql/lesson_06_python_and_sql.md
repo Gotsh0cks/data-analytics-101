@@ -188,7 +188,7 @@ conn.close()
 - Try `SERVER=localhost\\SQLEXPRESS` if you installed SQL Server Express
 
 **"Database does not exist"**
-- Run `setup_database.sql` in Azure Data Studio first to create the DataAnalytics101 database
+- Run `setup_database.sql` in VS Code first (Ctrl+Shift+E) to create the DataAnalytics101 database
 
 ## Try It Yourself
 

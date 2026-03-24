@@ -131,4 +131,21 @@ By the end of this course, you will have hands-on experience with all four. That
 
 ---
 
+## Where You Will Work: VS Code
+
+One thing that makes this course simpler: **you will use VS Code as your home base.** VS Code is a free code editor that handles both Python and SQL through extensions. That means you write Python scripts *and* SQL queries in the same place — no jumping between applications.
+
+| What | Where |
+|------|-------|
+| Python scripts (.py files) | VS Code |
+| SQL queries (.sql files) | VS Code |
+| Reading lesson files (.md files) | VS Code |
+| Running terminal commands | VS Code (built-in terminal) |
+| Excel / spreadsheets | Excel, Google Sheets, or LibreOffice |
+| Interactive dashboards | Tableau Public |
+
+You will only leave VS Code for Excel (Module 2) and Tableau (Module 5 Part 2) — both are point-and-click tools that have their own windows.
+
+---
+
 Next up: [Careers and Skills](careers_and_skills.md) — what data analyst jobs look like and what they pay.

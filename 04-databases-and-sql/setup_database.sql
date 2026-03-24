@@ -3,7 +3,7 @@
 -- ============================================================
 -- This script creates the DataAnalytics101 database and three
 -- practice tables: Sales, Employees, and Customers.
--- Run this entire script in Azure Data Studio before starting
+-- Run this entire script in VS Code (Ctrl+Shift+E) before starting
 -- the lessons.
 -- ============================================================
 

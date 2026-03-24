@@ -1,4 +1,4 @@
-# Installing SQL Server and Azure Data Studio
+# Installing SQL Server
 
 ## What Is a Database?
 
@@ -18,11 +18,11 @@ We will install the **free** version called SQL Server Express. It has everythin
 
 ---
 
-## What Is Azure Data Studio?
+## How Will You Write SQL?
 
-Azure Data Studio is a **tool for writing and running SQL queries**. Think of it the same way you think about VS Code: VS Code is where you write Python code, and Azure Data Studio is where you write SQL code to interact with your database.
+You already installed VS Code for writing Python. The good news: **VS Code can also run SQL queries.** You installed the SQL Server (mssql) extension in the previous step ([Install VS Code](install_vscode.md)), which gives VS Code the ability to connect to SQL Server and run queries — all without leaving the editor.
 
-It is free, made by Microsoft, and designed to be beginner-friendly.
+This means VS Code is your **single workspace** for both Python and SQL throughout this course. No need to switch between different applications.
 
 ---
 
@@ -56,58 +56,68 @@ It is free, made by Microsoft, and designed to be beginner-friendly.
 
 ---
 
-## Part 2: Install Azure Data Studio
+## Part 2: Connect VS Code to Your SQL Server
 
-### Step 1: Download Azure Data Studio
+Now let's make sure everything is working by connecting VS Code to the SQL Server you just installed.
 
-1. Open your web browser.
-2. Go to **[https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio)**
-3. Under the Windows section, click the download link for the **User Installer** (the `.exe` file).
-4. Wait for the download to finish.
+### Step 1: Open VS Code
 
-### Step 2: Install Azure Data Studio
+If it is not already open, press the Windows key, type **Visual Studio Code**, and press Enter.
 
-1. Open the downloaded file.
-2. If Windows asks "Do you want to allow this app to make changes to your device?", click **Yes**.
-3. Accept the license agreement and click **Next**.
-4. Keep clicking **Next** through the options — the defaults are fine.
-5. Click **Install**.
-6. When it finishes, leave "Launch Azure Data Studio" checked and click **Finish**.
+### Step 2: Create a Connection Profile
 
----
+1. Press **Ctrl+Shift+P** to open the Command Palette (the search bar at the top of VS Code).
+2. Type **sql connection** and select **"MS SQL: Add Connection"** from the list.
+3. VS Code will ask you a series of questions at the top of the screen. Answer them one at a time:
 
-## Part 3: Connect to Your Local SQL Server
-
-Now let's make sure everything is working by connecting Azure Data Studio to the SQL Server you just installed.
-
-### Step 1: Open Azure Data Studio
-
-If it did not open automatically, press the Windows key, type **Azure Data Studio**, and press Enter.
-
-### Step 2: Create a Connection
-
-1. When Azure Data Studio opens, you should see a **Welcome** tab. Look for a **"New Connection"** button, or click the **"Connections"** icon in the left sidebar (it looks like a small server or plug).
-2. A connection form will appear. Fill it in as follows:
-
-| Field | What to Enter |
-|-------|--------------|
-| **Connection type** | Microsoft SQL Server |
-| **Server** | `localhost\SQLEXPRESS` |
-| **Authentication type** | Windows Authentication |
-| **Database** | (leave as default) |
+| Prompt | What to Type |
+|--------|-------------|
+| **Server name** | `localhost\SQLEXPRESS` |
+| **Database name** | Press **Enter** to skip (leave blank — this connects to the whole server) |
+| **Authentication type** | Select **Windows Authentication** |
+| **Profile name** | Type `Local SQL Server` (or any name you like) and press **Enter** |
 
 **What does this mean?**
 - **localhost** means "this computer" — the SQL Server is running right here on your machine, not on some remote server.
 - **\SQLEXPRESS** is the name of the SQL Server instance you installed.
 - **Windows Authentication** means SQL Server will verify your identity using your Windows login, so you do not need a separate username and password.
 
-3. Click **Connect**.
-
 ### Step 3: Verify It Worked
 
-If everything is set up correctly, you will see your server appear in the left sidebar under "Connections." You can click the little arrow next to it to expand it and see the system databases that SQL Server created automatically (like `master`, `model`, `msdb`, and `tempdb`).
+After you press Enter on the last prompt, VS Code will attempt to connect. You should see a confirmation in the bottom status bar showing your server name. If it connects successfully, you are all set.
 
-You do not need to know what those databases are yet — we will cover that later. For now, the important thing is that you are connected.
+To test it further:
+
+1. Create a new file: press **Ctrl+N**, then save it as `test.sql` (press **Ctrl+S**).
+2. Type this simple query:
+
+```sql
+SELECT @@VERSION;
+```
+
+3. Press **Ctrl+Shift+E** to run the query.
+4. If VS Code asks you to choose a connection, select the **Local SQL Server** profile you just created.
+5. You should see a results panel appear at the bottom showing the SQL Server version information.
+
+If you see results, everything is working. You can delete `test.sql` — it was just for testing.
+
+---
+
+## Running SQL Files in VS Code — Quick Reference
+
+You will use these steps throughout Module 4 when working with `.sql` files:
+
+1. **Open** the `.sql` file in VS Code (double-click it in the Explorer sidebar, or use File > Open File)
+2. **Connect** — if VS Code asks which connection to use, pick your **Local SQL Server** profile
+3. **Run the whole file** — press **Ctrl+Shift+E**
+4. **Run just a selection** — highlight the lines you want to run, then press **Ctrl+Shift+E**
+5. **View results** — they appear in a panel at the bottom of VS Code
+
+| Action | Shortcut |
+|--------|----------|
+| Run query / selection | Ctrl+Shift+E |
+| Open Command Palette | Ctrl+Shift+P |
+| Change SQL connection | Ctrl+Shift+P, then type "MS SQL: Connect" |
 
 ---
 
@@ -119,7 +129,7 @@ You do not need to know what those databases are yet — we will cover that late
 2. A window will open showing a long list of services. Scroll down until you find **"SQL Server (SQLEXPRESS)"**.
 3. Look at the "Status" column. It should say **"Running"**.
 4. If it does not say "Running", right-click on it and click **Start**.
-5. Go back to Azure Data Studio and try connecting again.
+5. Go back to VS Code and try connecting again (Ctrl+Shift+P > "MS SQL: Connect").
 
 If you are still stuck, check [common_errors.md](common_errors.md) for more help.
 
@@ -127,13 +137,11 @@ If you are still stuck, check [common_errors.md](common_errors.md) for more help
 
 ## You Are Done With This Step!
 
-You now have a complete data analytics setup on your computer:
+You now have SQL Server installed and connected to VS Code. Combined with the Python extension you installed earlier, VS Code is now your single workspace for:
 
-- **Python** for writing analysis code
-- **VS Code** for editing your code
-- **SQL Server** for storing data in databases
-- **Azure Data Studio** for writing SQL queries
+- **Python** scripts (Modules 3, 5, 6, 7)
+- **SQL** queries (Module 4)
 
-That is everything you need. In the next module, we will start actually working with data.
+That is everything you need. In the next step, we will install Tableau Public for interactive dashboards.
 
 Before you move on, take a quick look at [common_errors.md](common_errors.md) so you know where to go if anything goes wrong later.

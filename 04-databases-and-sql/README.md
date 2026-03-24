@@ -30,11 +30,11 @@ You might wonder: "I can already load CSV files in pandas. Why do I need SQL?"
 
 Make sure you have completed the SQL Server setup in Module 1. Then:
 
-1. Open Azure Data Studio
-2. Connect to your local SQL Server instance
-3. Open the file `setup_database.sql` from this folder
-4. Click **Run** (or press F5) to execute the entire script
-5. You should see messages confirming the database and tables were created
+1. Open **VS Code** and make sure you are in the `data-analytics-101` folder (File > Open Folder)
+2. Open the file `04-databases-and-sql/setup_database.sql` from the Explorer sidebar
+3. Press **Ctrl+Shift+E** to run the entire script
+4. If VS Code asks which connection to use, select your **Local SQL Server** profile (the one you set up in Module 1)
+5. You should see messages in the results panel confirming the database and tables were created
 
 ## Lessons
 

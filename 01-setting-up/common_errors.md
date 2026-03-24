@@ -133,9 +133,9 @@ python -m pip install pandas matplotlib seaborn openpyxl
 
 ---
 
-## "Cannot connect to SQL Server" or Connection Errors in Azure Data Studio
+## "Cannot connect to SQL Server" or Connection Errors in VS Code
 
-**When does this happen?** When you try to connect to your local SQL Server from Azure Data Studio and it fails.
+**When does this happen?** When you try to connect to your local SQL Server from VS Code (using the mssql extension) and it fails.
 
 **What it means:** Usually, the SQL Server service is not running on your computer.
 
@@ -149,11 +149,11 @@ python -m pip install pandas matplotlib seaborn openpyxl
 4. Look at the **Status** column:
    - If it says **"Running"**, the service is fine and the problem is something else (see Step 2).
    - If it is **blank** or says **"Stopped"**, right-click on it and click **"Start"**.
-5. Try connecting again in Azure Data Studio.
+5. Try connecting again in VS Code (Ctrl+Shift+P > "MS SQL: Connect").
 
 ### Step 2: Double-check your connection settings
 
-Make sure your connection in Azure Data Studio is set to:
+Make sure your connection in VS Code is set to:
 
 | Field | Value |
 |-------|-------|

@@ -118,7 +118,7 @@ print("Hello, Data World!")
 Try changing the text inside the quotes to something else, like:
 
 ```python
-print("My name is Alex and I am learning data analytics!")
+print("My name is Camille and I am learning data analytics!")
 ```
 
 Save the file (Ctrl+S), then go back to the terminal and run `python hello.py` again. You should see your new message.
