@@ -145,3 +145,5 @@ You now have SQL Server installed and connected to VS Code. Combined with the Py
 That is everything you need. In the next step, we will install Tableau Public for interactive dashboards.
 
 Before you move on, take a quick look at [common_errors.md](common_errors.md) so you know where to go if anything goes wrong later.
+
+Next up: [Install Tableau Public](install_tableau_public.md)

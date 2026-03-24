@@ -42,3 +42,7 @@ By the end of this project, you should have:
 ## Time Estimate
 
 Plan for 3-5 hours, depending on how deep you go. There is no "right" answer — the goal is to practice the full workflow.
+
+## You Made It!
+
+If you have completed all modules and finished your capstone project — congratulations. You now have hands-on experience with Excel, Python, SQL, matplotlib, and Tableau. That is a strong foundation for an entry-level data analyst role. Keep practicing, keep exploring new datasets, and keep building your portfolio.

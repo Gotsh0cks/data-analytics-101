@@ -56,3 +56,7 @@ After completing the lessons, test your skills with the [Exercises](exercises.md
 ---
 
 > **Tip from Module 2:** Remember how pivot tables let you summarize data by category in seconds? In Lesson 3, you will learn `groupby()` — the pandas equivalent. Same concept, different tool.
+
+## Next Steps
+
+Once you have completed the lessons and exercises, move on to [Module 4: Databases & SQL](../04-databases-and-sql/) — where you will learn to pull data directly from a database using SQL.

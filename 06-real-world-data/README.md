@@ -35,3 +35,7 @@ After completing the lessons, head to `exercises.md` for hands-on practice probl
 ## What Gets Downloaded
 
 The download script saves files to `../data/external/`. These datasets are also used in the capstone project (Module 7), so keep them around.
+
+## Next Steps
+
+Once you have downloaded and explored some external datasets, move on to [Module 7: Capstone Project](../07-capstone/) — where you will bring everything together in an end-to-end analysis.

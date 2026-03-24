@@ -74,4 +74,6 @@ For learning, Tableau Public has everything you need.
 
 ## Next Steps
 
-Once Tableau Public is installed, proceed to `lesson_01_connect_data.md` to load your first dataset.
+You will not use Tableau until Module 5. For now, head back to the [Module 1 README](README.md) and follow the "After Installing" steps to verify your setup.
+
+Next up: [Running Your First Script](running_your_first_script.md)

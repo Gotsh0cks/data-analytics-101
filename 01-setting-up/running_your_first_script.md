@@ -24,7 +24,7 @@ If VS Code is not already open, press the **Windows key**, type **Visual Studio 
 4. Click **Select Folder**.
 5. If VS Code asks whether you trust the authors, click **Yes, I trust the authors**.
 
-You should see the folder structure in the left sidebar. If you click the little arrow next to **00-getting-started**, it will expand and show you the files inside, including `hello.py`.
+You should see the folder structure in the left sidebar. If you click the little arrow next to **01-setting-up**, it will expand and show you the files inside, including `hello.py`.
 
 ---
 
@@ -48,12 +48,12 @@ The terminal needs to know which folder you want to work in. Right now, it is pr
 Type the following command and press Enter:
 
 ```
-cd 00-getting-started
+cd 01-setting-up
 ```
 
-**What does `cd` mean?** It stands for "change directory." A directory is just another word for a folder. So `cd 00-getting-started` means "go into the folder called 00-getting-started."
+**What does `cd` mean?** It stands for "change directory." A directory is just another word for a folder. So `cd 01-setting-up` means "go into the folder called 01-setting-up."
 
-You should see the terminal prompt change to show that you are now inside the `00-getting-started` folder.
+You should see the terminal prompt change to show that you are now inside the `01-setting-up` folder.
 
 ---
 
@@ -129,6 +129,6 @@ Changing code and re-running it to see what happens is how programmers learn. Do
 
 ## Next Steps
 
-You have now confirmed that Python works on your computer and you know how to run a script. Next, we will install the database tools you will need later in the course.
+You have now confirmed that Python works on your computer and you know how to run a script. If you have already installed everything from the table in the [Module 1 README](README.md), you are ready to start learning.
 
-Next up: [install_sql_server.md](install_sql_server.md)
+Next up: [Module 2: Spreadsheets](../02-spreadsheets/) — your first hands-on work with data.

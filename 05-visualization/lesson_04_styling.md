@@ -141,4 +141,8 @@ After running, try:
 
 ## What's Next?
 
-Head over to the [Exercises](exercises.md) to practice everything you have learned in this module!
+You have completed Part 1 (code-based visualization). Next up is **Part 2: Tableau** — where you will build interactive dashboards using drag-and-drop.
+
+Continue to [Lesson 5: Connecting to Data in Tableau](lesson_05_tableau_connect_data.md).
+
+If you want to practice the matplotlib skills first, head to [Exercises](exercises.md) (Part 1).

@@ -69,3 +69,7 @@ Same concepts, three different tools. Pick the best one for the situation.
 - **Experiment.** Change a column name, add a filter, break something on purpose — then fix it.
 - **Read the error messages.** SQL Server gives you helpful clues about what went wrong.
 - **Run queries in small pieces.** If a big query does not work, try running just the inner part first.
+
+## Next Steps
+
+Once you have completed the lessons and exercises, move on to [Module 5: Visualization](../05-visualization/) — where you will learn to turn your analysis into charts and dashboards.

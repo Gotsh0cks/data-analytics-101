@@ -152,3 +152,7 @@ python lesson_04_data_cleaning.py
 - Use `.duplicated()` and `.drop_duplicates()` to find and remove duplicate rows.
 - Use `.astype()` and `pd.to_datetime()` to fix column types.
 - Save your cleaned data to a new CSV file with `.to_csv()`.
+
+## What's Next?
+
+Head to the [Exercises](exercises.md) to practice. Once you are done, move on to [Module 4: Databases & SQL](../04-databases-and-sql/).
