@@ -2,7 +2,7 @@
 
 ## Summarizing Data
 
-So far, you've been looking at individual rows. But in data analytics, you often need *summaries* — totals, averages, counts. That's what **aggregate functions** do. They take many rows and crunch them down into a single value.
+So far, you've been looking at individual rows. But in data analytics, you often need *summaries* totals, averages, counts. That's what **aggregate functions** do. They take many rows and crunch them down into a single value.
 
 ## The Big Five Aggregate Functions
 
@@ -35,9 +35,9 @@ In our sample data, they return the same number because we don't have NULLs. But
 
 **Rule of thumb:** Use `COUNT(*)` when you want to count rows. Use `COUNT(column_name)` when you specifically want to know how many non-empty values exist in that column.
 
-## GROUP BY — Totals for EACH Group
+## GROUP BY Totals for EACH Group
 
-Aggregate functions become really powerful when you combine them with **GROUP BY**. This tells SQL: "Don't just give me one total — give me a total for *each* group."
+Aggregate functions become really powerful when you combine them with **GROUP BY**. This tells SQL: "Don't just give me one total give me a total for *each* group."
 
 ```sql
 -- Total revenue for EACH region
@@ -62,9 +62,9 @@ FROM Customers
 GROUP BY state;
 ```
 
-**Important rule:** When you use GROUP BY, every column in your SELECT must either be (1) in the GROUP BY clause, or (2) inside an aggregate function. You can't just throw random columns in there — SQL wouldn't know which value to show for the group.
+**Important rule:** When you use GROUP BY, every column in your SELECT must either be (1) in the GROUP BY clause, or (2) inside an aggregate function. You can't just throw random columns in there SQL wouldn't know which value to show for the group.
 
-## HAVING — Filtering Groups
+## HAVING Filtering Groups
 
 You know that WHERE filters individual rows. But what if you want to filter *groups* after aggregating? That's what **HAVING** does.
 
@@ -132,12 +132,12 @@ ORDER BY avg_salary DESC;
 
 This is the order SQL actually processes a query (not the order you write it):
 
-1. `FROM` — which table?
-2. `WHERE` — filter individual rows
-3. `GROUP BY` — create groups
-4. `HAVING` — filter groups
-5. `SELECT` — choose columns and calculate aggregates
-6. `ORDER BY` — sort the final results
+1. `FROM` which table?
+2. `WHERE` filter individual rows
+3. `GROUP BY` create groups
+4. `HAVING` filter groups
+5. `SELECT` choose columns and calculate aggregates
+6. `ORDER BY` sort the final results
 
 Understanding this order helps you know when to use WHERE vs HAVING.
 

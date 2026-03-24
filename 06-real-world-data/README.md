@@ -2,7 +2,7 @@
 
 ## What This Module Covers
 
-So far you have been working with three small sample datasets that came with this course. That is great for learning, but real data analysts work with data from **many different sources** — government databases, public research, company data, and more.
+So far you have been working with three small sample datasets that came with this course. That is great for learning, but real data analysts work with data from **many different sources** government databases, public research, company data, and more.
 
 In this module, you will learn how to:
 
@@ -38,4 +38,4 @@ The download script saves files to `../data/external/`. These datasets are also 
 
 ## Next Steps
 
-Once you have downloaded and explored some external datasets, move on to [Module 7: Capstone Project](../07-capstone/) — where you will bring everything together in an end-to-end analysis.
+Once you have downloaded and explored some external datasets, move on to [Module 7: Capstone Project](../07-capstone/) where you will bring everything together in an end-to-end analysis.

@@ -2,11 +2,11 @@
 
 ## What This Module Covers
 
-In Module 2, you learned to analyze data in Excel — formulas, sorting, filtering, pivot tables, and charts. Excel is great, but it has limits. When your dataset grows to hundreds of thousands of rows, when you need to repeat the same analysis every week, or when you want to document exactly what you did so someone else can verify it — you need code.
+In Module 2, you learned to analyze data in Excel formulas, sorting, filtering, pivot tables, and charts. Excel is great, but it has limits. When your dataset grows to hundreds of thousands of rows, when you need to repeat the same analysis every week, or when you want to document exactly what you did so someone else can verify it you need code.
 
-In this module, you will learn **pandas** — a Python library that gives you Excel-like power through code. If Excel is a Swiss Army knife, pandas is a full workshop.
+In this module, you will learn **pandas** a Python library that gives you Excel-like power through code. If Excel is a Swiss Army knife, pandas is a full workshop.
 
-## Excel vs. pandas — A Quick Comparison
+## Excel vs. pandas A Quick Comparison
 
 | Task | In Excel | In pandas |
 |------|----------|-----------|
@@ -17,7 +17,7 @@ In this module, you will learn **pandas** — a Python library that gives you Ex
 | Pivot table | Insert > PivotTable | `df.groupby("column").sum()` |
 | Count rows | COUNTA formula | `len(df)` |
 
-The syntax is different, but the *concepts* are the same. You already know what filtering and sorting mean — now you will learn to express those ideas in code.
+The syntax is different, but the *concepts* are the same. You already know what filtering and sorting mean now you will learn to express those ideas in code.
 
 ## Why Code Instead of Clicking?
 
@@ -43,9 +43,9 @@ After completing the lessons, test your skills with the [Exercises](lesson_05_ex
 
 ## Datasets Used
 
-- `../data/sales_data.csv` — The same sales data you explored in Excel
-- `../data/employees.csv` — Employee records (used in exercises)
-- `../data/customers.csv` — Customer information (used in exercises)
+- `../data/sales_data.csv` The same sales data you explored in Excel
+- `../data/employees.csv` Employee records (used in exercises)
+- `../data/customers.csv` Customer information (used in exercises)
 
 ## Prerequisites
 
@@ -55,8 +55,8 @@ After completing the lessons, test your skills with the [Exercises](lesson_05_ex
 
 ---
 
-> **Tip from Module 2:** Remember how pivot tables let you summarize data by category in seconds? In Lesson 3, you will learn `groupby()` — the pandas equivalent. Same concept, different tool.
+> **Tip from Module 2:** Remember how pivot tables let you summarize data by category in seconds? In Lesson 3, you will learn `groupby()` the pandas equivalent. Same concept, different tool.
 
 ## Next Steps
 
-Once you have completed the lessons and exercises, move on to [Module 4: Databases & SQL](../04-databases-and-sql/) — where you will learn to pull data directly from a database using SQL.
+Once you have completed the lessons and exercises, move on to [Module 4: Databases & SQL](../04-databases-and-sql/) where you will learn to pull data directly from a database using SQL.

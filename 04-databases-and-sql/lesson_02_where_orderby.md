@@ -55,7 +55,7 @@ WHERE category = 'Electronics' AND (region = 'North' OR region = 'South');
 
 Without the parentheses, you might get unexpected results because AND is evaluated before OR.
 
-## IN — Matching a List
+## IN Matching a List
 
 Instead of writing multiple OR conditions, you can use **IN**:
 
@@ -67,7 +67,7 @@ WHERE region IN ('North', 'South', 'East');
 
 This is cleaner and easier to read, especially with long lists.
 
-## LIKE — Pattern Matching
+## LIKE Pattern Matching
 
 **LIKE** lets you search for patterns in text using the `%` wildcard:
 
@@ -87,7 +87,7 @@ SELECT * FROM Customers
 WHERE email LIKE '%email%';
 ```
 
-## BETWEEN — Range Matching
+## BETWEEN Range Matching
 
 **BETWEEN** is a shortcut for checking if a value falls within a range (inclusive on both ends):
 
@@ -105,7 +105,7 @@ BETWEEN includes both endpoints, so `BETWEEN 50000 AND 80000` includes 50,000 an
 
 ## IS NULL / IS NOT NULL
 
-Sometimes data is missing. In databases, a missing value is called **NULL**. You can't check for NULL with `=` — you have to use **IS NULL** or **IS NOT NULL**:
+Sometimes data is missing. In databases, a missing value is called **NULL**. You can't check for NULL with `=` you have to use **IS NULL** or **IS NOT NULL**:
 
 ```sql
 -- Find rows where a value is missing

@@ -19,7 +19,7 @@ Open `data/excel/sales_data.xlsx` and follow these steps:
 
 1. Go to the **Insert** tab
 2. Click **PivotTable**
-3. A dialog appears — it should automatically detect your data range
+3. A dialog appears it should automatically detect your data range
 4. Choose **New Worksheet** (the default)
 5. Click **OK**
 
@@ -66,7 +66,7 @@ By default, Values shows **Sum**. To change it:
 2. Drag **region** to the **Columns** area
 3. Keep **revenue** in Values (set to Sum)
 
-Now you see a grid: categories down the left, regions across the top, with revenue at each intersection. This is called a **cross-tabulation** — it shows how two categories interact.
+Now you see a grid: categories down the left, regions across the top, with revenue at each intersection. This is called a **cross-tabulation** it shows how two categories interact.
 
 ### Multiple Row Fields
 
@@ -131,4 +131,4 @@ In Google Sheets:
 
 ---
 
-Next up: [Excel Charts](lesson_05_excel_charts.md) — visualize your data without leaving Excel.
+Next up: [Excel Charts](lesson_05_excel_charts.md) visualize your data without leaving Excel.

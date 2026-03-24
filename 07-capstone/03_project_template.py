@@ -40,7 +40,7 @@ import seaborn as sns
 # df.drop_duplicates(inplace=True)
 
 # ============================================================
-# STEP 4: Analyze — Answer your questions
+# STEP 4: Analyze Answer your questions
 # ============================================================
 # Write code to answer 3-5 questions about your data.
 
@@ -57,7 +57,7 @@ import seaborn as sns
 
 
 # ============================================================
-# STEP 5: Visualize — Create at least 3 charts
+# STEP 5: Visualize Create at least 3 charts
 # ============================================================
 sns.set_style("whitegrid")
 

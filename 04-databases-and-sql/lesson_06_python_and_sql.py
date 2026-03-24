@@ -6,11 +6,11 @@
 #
 # Prerequisites:
 #   1. SQL Server running with the DataAnalytics101 database
-#      (run 00_setup_database.sql in VS Code first — Ctrl+Shift+E)
+#      (run 00_setup_database.sql in VS Code first Ctrl+Shift+E)
 #   2. pip install pyodbc pandas
 #
 # If SQL Server is not running, this script will show an error.
-# That is expected — it requires a live database connection.
+# That is expected it requires a live database connection.
 # ============================================================
 
 import sys

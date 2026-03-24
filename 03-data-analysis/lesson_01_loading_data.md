@@ -13,13 +13,13 @@ Bob,25,Chicago
 Carol,35,Denver
 ```
 
-The first line is the **header row** — it tells you the name of each column. Every line after that is a row of data. Each value is separated by a comma, which is where the name comes from.
+The first line is the **header row** it tells you the name of each column. Every line after that is a row of data. Each value is separated by a comma, which is where the name comes from.
 
 Almost every data tool can read and write CSV files, which is why they are so popular. If you have an Excel file, you can save it as a CSV by choosing "Save As" and selecting "CSV" as the format.
 
 ## What is pandas?
 
-**pandas** is a Python library that makes it easy to work with data in tables (rows and columns). If you've used Excel or Google Sheets before, pandas will feel familiar — except instead of clicking around a spreadsheet, you write short commands.
+**pandas** is a Python library that makes it easy to work with data in tables (rows and columns). If you've used Excel or Google Sheets before, pandas will feel familiar except instead of clicking around a spreadsheet, you write short commands.
 
 Why use pandas instead of Excel?
 
@@ -70,7 +70,7 @@ This shows the last 5 rows. Useful for checking if your data loaded completely.
 df.shape
 ```
 
-This tells you how many rows and columns your data has, as a pair of numbers like `(1000, 6)` — meaning 1,000 rows and 6 columns. Notice there are no parentheses after `shape` — it's a property, not a function.
+This tells you how many rows and columns your data has, as a pair of numbers like `(1000, 6)` meaning 1,000 rows and 6 columns. Notice there are no parentheses after `shape` it's a property, not a function.
 
 ### See column names and types: `.dtypes`
 

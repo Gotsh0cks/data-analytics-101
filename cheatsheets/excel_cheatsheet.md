@@ -74,7 +74,7 @@ Quick reference for Excel formulas, shortcuts, and features. Print this out and 
 
 ---
 
-## Pivot Tables — Quick Steps
+## Pivot Tables Quick Steps
 
 1. Select your data (Ctrl + A)
 2. Insert > PivotTable > New Worksheet > OK
@@ -87,7 +87,7 @@ Quick reference for Excel formulas, shortcuts, and features. Print this out and 
 
 ---
 
-## Charts — Quick Steps
+## Charts Quick Steps
 
 1. Select data (including headers)
 2. Insert > choose chart type

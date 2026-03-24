@@ -2,7 +2,7 @@
 
 ## The Best of Both Worlds
 
-So far you have used Python for data analysis (pandas) and SQL for database queries. But in real work, you often need **both at once** — run a SQL query, then analyze the results in Python.
+So far you have used Python for data analysis (pandas) and SQL for database queries. But in real work, you often need **both at once** run a SQL query, then analyze the results in Python.
 
 This is one of the most common workflows for data analysts:
 
@@ -34,10 +34,10 @@ conn = pyodbc.connect(
 ```
 
 Let's break this down:
-- **DRIVER** — the software that translates between Python and SQL Server (installed with SQL Server)
-- **SERVER** — where the database is running (`localhost` means your own computer)
-- **DATABASE** — which database to connect to
-- **Trusted_Connection=yes** — use your Windows login (no separate username/password needed)
+- **DRIVER** the software that translates between Python and SQL Server (installed with SQL Server)
+- **SERVER** where the database is running (`localhost` means your own computer)
+- **DATABASE** which database to connect to
+- **Trusted_Connection=yes** use your Windows login (no separate username/password needed)
 
 ## The Magic Line: pd.read_sql()
 
@@ -95,7 +95,7 @@ plt.show()
 
 ### Parameterized queries (safe filtering)
 
-When filtering based on a variable, use **parameters** instead of string formatting. This prevents SQL injection — a serious security vulnerability.
+When filtering based on a variable, use **parameters** instead of string formatting. This prevents SQL injection a serious security vulnerability.
 
 ```python
 # GOOD: Use ? placeholders
@@ -159,7 +159,7 @@ conn = pyodbc.connect(
     "Trusted_Connection=yes;"
 )
 
-# 2. Query — let SQL filter the data
+# 2. Query let SQL filter the data
 df = pd.read_sql("""
     SELECT e.first_name, e.last_name, e.department, e.salary
     FROM Employees e

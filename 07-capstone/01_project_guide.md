@@ -29,8 +29,8 @@ python 06-real-world-data/02_download_public_datasets.py
 Before writing any code, open your dataset in Excel to get a feel for it.
 
 1. Open the CSV in Excel (or Google Sheets)
-2. Look at the columns — what does each one mean?
-3. Check for obvious issues — missing values, weird formatting
+2. Look at the columns what does each one mean?
+3. Check for obvious issues missing values, weird formatting
 4. Write down **3-5 questions** you want to answer
 
 **Example questions for the Titanic dataset:**
@@ -46,8 +46,8 @@ Open `03_project_template.py` (or create your own script) and:
 
 1. **Load the data** with `pd.read_csv()`
 2. **Inspect it** with `.head()`, `.info()`, `.describe()`
-3. **Clean it** — handle missing values, fix data types
-4. **Analyze it** — filter, group, aggregate to answer your questions
+3. **Clean it** handle missing values, fix data types
+4. **Analyze it** filter, group, aggregate to answer your questions
 5. **Print your findings** clearly
 
 ```python
@@ -86,7 +86,7 @@ ORDER BY Pclass;
 Create at least 3 charts that support your findings:
 
 1. **A bar chart** comparing categories (e.g., survival rate by class)
-2. **A chart of your choice** (line, scatter, pie — whatever fits your data)
+2. **A chart of your choice** (line, scatter, pie whatever fits your data)
 3. **A polished chart** with seaborn styling for your portfolio
 
 Save each chart as a PNG file.

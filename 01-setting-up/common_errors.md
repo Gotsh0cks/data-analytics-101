@@ -1,6 +1,6 @@
 # Common Errors and How to Fix Them
 
-Getting error messages is a completely normal part of working with computers. Every programmer — even those with decades of experience — runs into errors regularly. An error does not mean you did something stupid. It means the computer needs you to fix something specific before it can continue.
+Getting error messages is a completely normal part of working with computers. Every programmer even those with decades of experience runs into errors regularly. An error does not mean you did something stupid. It means the computer needs you to fix something specific before it can continue.
 
 This page covers the most common errors you will encounter in Module 0 and how to solve them.
 
@@ -52,7 +52,7 @@ If that works, use `py` wherever this course says `python`. For example: `py hel
 
 **When does this happen?** When you try to install packages with `pip install pandas`.
 
-**What it means:** Same idea as the Python error above — the system cannot find pip.
+**What it means:** Same idea as the Python error above the system cannot find pip.
 
 **How to fix it:**
 
@@ -109,7 +109,7 @@ This installs the package just for your user account, which does not require adm
 ModuleNotFoundError: No module named 'pandas'
 ```
 
-**What it means:** The package is not installed yet. Python does not come with data analytics packages built in — you need to install them separately.
+**What it means:** The package is not installed yet. Python does not come with data analytics packages built in you need to install them separately.
 
 **How to fix it:**
 
@@ -182,7 +182,7 @@ When you encounter an error that is not listed here, follow these steps:
 
 ### 1. Read the error message carefully
 
-Error messages are written by programmers to help you figure out what went wrong. They may look intimidating at first, but they usually contain the answer — or at least a strong hint. Look for the last line of the error, which is usually the most specific and helpful.
+Error messages are written by programmers to help you figure out what went wrong. They may look intimidating at first, but they usually contain the answer or at least a strong hint. Look for the last line of the error, which is usually the most specific and helpful.
 
 ### 2. Copy the exact error message and search for it
 
@@ -196,11 +196,11 @@ Thousands of other people have had the same error before you. Sites like Stack O
 
 ### 3. Do not panic
 
-An error message is not a failure — it is information. It is the computer telling you exactly what it needs. Think of it as a conversation: the computer said "I cannot do this because of X." Your job is to fix X.
+An error message is not a failure it is information. It is the computer telling you exactly what it needs. Think of it as a conversation: the computer said "I cannot do this because of X." Your job is to fix X.
 
 ### 4. Close and reopen
 
-Sometimes, especially after installing something new or changing settings, you need to close your Command Prompt, terminal, or VS Code and reopen it for the changes to take effect. This is one of the most common reasons a fix "does not work" — you just need a fresh window.
+Sometimes, especially after installing something new or changing settings, you need to close your Command Prompt, terminal, or VS Code and reopen it for the changes to take effect. This is one of the most common reasons a fix "does not work" you just need a fresh window.
 
 ### 5. Restart your computer
 
@@ -210,4 +210,4 @@ If all else fails, restart. It sounds like a cliche, but many installation steps
 
 ## You Are Ready
 
-If you have made it through Module 0 and everything is installed and working, give yourself some credit. Setting up a development environment is honestly one of the most frustrating parts of learning to code, and you just finished it. The fun part — actually working with data — starts now.
+If you have made it through Module 0 and everything is installed and working, give yourself some credit. Setting up a development environment is honestly one of the most frustrating parts of learning to code, and you just finished it. The fun part actually working with data starts now.

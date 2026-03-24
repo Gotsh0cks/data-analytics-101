@@ -4,7 +4,7 @@
 # This script downloads free, publicly available datasets
 # that you'll use throughout the rest of this course.
 #
-# No accounts or API keys needed — just run this script!
+# No accounts or API keys needed just run this script!
 #
 # Usage:
 #   python 02_download_public_datasets.py
@@ -26,22 +26,22 @@ DATASETS = [
     (
         "titanic.csv",
         "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv",
-        "Titanic passenger data — survival, class, age, fare, etc.",
+        "Titanic passenger data survival, class, age, fare, etc.",
     ),
     (
         "iris.csv",
         "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv",
-        "Iris flower measurements — a classic beginner dataset.",
+        "Iris flower measurements a classic beginner dataset.",
     ),
     (
         "world_happiness.csv",
         "https://raw.githubusercontent.com/Escavine/World-Happiness/main/World-happiness-report-2024.csv",
-        "World Happiness Report — country happiness scores and factors.",
+        "World Happiness Report country happiness scores and factors.",
     ),
     (
         "tips.csv",
         "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv",
-        "Restaurant tipping data — bill amount, tip, day, time, party size.",
+        "Restaurant tipping data bill amount, tip, day, time, party size.",
     ),
 ]
 
@@ -103,7 +103,7 @@ def main():
     if fail_count > 0:
         print()
         print("Some downloads failed. Check your internet connection and try again.")
-        print("You can safely re-run this script — it will skip files that")
+        print("You can safely re-run this script it will skip files that")
         print("already exist.")
         sys.exit(1)
 

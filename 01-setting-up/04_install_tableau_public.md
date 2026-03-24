@@ -2,7 +2,7 @@
 
 ## What is Tableau Public?
 
-Tableau Public is the **free version** of Tableau. It has the same powerful visualization features as the paid version, with one key difference: all work you save is published publicly to the Tableau Public website. This is actually a benefit for learners — it builds your portfolio automatically.
+Tableau Public is the **free version** of Tableau. It has the same powerful visualization features as the paid version, with one key difference: all work you save is published publicly to the Tableau Public website. This is actually a benefit for learners it builds your portfolio automatically.
 
 ## Step-by-Step Installation
 
@@ -20,7 +20,7 @@ Tableau asks for your email address to create a free account. Enter your email a
 
 1. Open the downloaded file (usually called `TableauPublic.exe`)
 2. If Windows asks "Do you want to allow this app to make changes?", click **Yes**
-3. The installer will run automatically — no options to configure
+3. The installer will run automatically no options to configure
 4. Wait for the installation to finish (this takes a few minutes)
 
 ### Step 4: Launch Tableau Public

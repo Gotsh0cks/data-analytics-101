@@ -24,15 +24,15 @@ Bar charts compare categories. They answer the question: "How do these groups co
 1. Create a pivot table with **category** in Rows and **Sum of revenue** in Values
 2. Click anywhere in the pivot table
 3. Go to **Insert** > **Column Chart** (or **PivotChart**)
-4. Done — the chart automatically uses the pivot table data
+4. Done the chart automatically uses the pivot table data
 
 ### Customizing the Chart
 
 Click on the chart to select it. You will see three buttons on the right:
 
-- **+** (Chart Elements) — add/remove title, axis labels, data labels, gridlines
-- **Paintbrush** (Chart Styles) — change colors and style
-- **Funnel** (Chart Filters) — filter what data appears
+- **+** (Chart Elements) add/remove title, axis labels, data labels, gridlines
+- **Paintbrush** (Chart Styles) change colors and style
+- **Funnel** (Chart Filters) filter what data appears
 
 #### Adding a Title
 1. Click the chart title (or click **+** > check **Chart Title**)
@@ -54,14 +54,14 @@ Line charts show trends over time. They answer: "How has this changed?"
 
 ### When to Use Lines vs. Bars
 
-- **Line chart** — data has a natural order (time, sequence). Shows trends.
-- **Bar chart** — data is categorical (regions, products). Shows comparisons.
+- **Line chart** data has a natural order (time, sequence). Shows trends.
+- **Bar chart** data is categorical (regions, products). Shows comparisons.
 
-Do not use a line chart for categories — a line implies continuity between points, which does not make sense for "Electronics, Furniture, Supplies."
+Do not use a line chart for categories a line implies continuity between points, which does not make sense for "Electronics, Furniture, Supplies."
 
 ## Creating a Pie Chart
 
-Pie charts show proportions — what percentage of the total each category represents.
+Pie charts show proportions what percentage of the total each category represents.
 
 1. Create a summary of revenue by category (pivot table or manual)
 2. Select the data
@@ -84,7 +84,7 @@ Pie charts are popular but often misleading. The human eye is bad at comparing s
 - Always start bar chart y-axes at zero. Starting at a higher number exaggerates differences.
 
 ### Legends
-- If your chart has only one series (one color), remove the legend — it adds clutter
+- If your chart has only one series (one color), remove the legend it adds clutter
 - Click the legend and press Delete
 
 ### Chart Size
@@ -118,4 +118,4 @@ Using `data/excel/employees.xlsx`:
 
 You have completed the Excel module. You now know how to navigate spreadsheets, write formulas, sort and filter, build pivot tables, and create charts. These are foundational skills that you will use throughout your career.
 
-Next up: [Module 3: Data Analysis with Python](../03-data-analysis/) — learn to do everything you just did, but with code that scales to millions of rows.
+Next up: [Module 3: Data Analysis with Python](../03-data-analysis/) learn to do everything you just did, but with code that scales to millions of rows.

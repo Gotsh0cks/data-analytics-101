@@ -54,7 +54,7 @@ Write a query using a CTE to find the department with the highest average salary
 
 ## Exercise 8 (BONUS): Products Never Sold in the West
 
-Find products that have never been sold in the "West" region. This is trickier than it looks — think about which products *do* appear in the West, and then find the ones that don't.
+Find products that have never been sold in the "West" region. This is trickier than it looks think about which products *do* appear in the West, and then find the ones that don't.
 
 ---
 
@@ -122,7 +122,7 @@ One approach: use `WHERE product NOT IN (SELECT DISTINCT product FROM Sales WHER
 
 ## How Did You Do?
 
-- **Exercises 1-3:** These cover SELECT, WHERE, GROUP BY, and ORDER BY — the fundamentals.
+- **Exercises 1-3:** These cover SELECT, WHERE, GROUP BY, and ORDER BY the fundamentals.
 - **Exercises 4-6:** These require combining multiple concepts together.
 - **Exercises 7-8:** These use CTEs and subqueries for more advanced analysis.
 

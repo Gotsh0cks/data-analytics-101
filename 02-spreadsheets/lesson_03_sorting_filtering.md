@@ -41,7 +41,7 @@ In Google Sheets: select a column and use **Data > Sort sheet by column**.
 
 ## Filtering Data
 
-Filtering temporarily hides rows that do not match your criteria. The hidden rows are not deleted — they are just invisible until you remove the filter.
+Filtering temporarily hides rows that do not match your criteria. The hidden rows are not deleted they are just invisible until you remove the filter.
 
 ### Turning On Filters
 
@@ -134,4 +134,4 @@ Open `data/excel/employees.xlsx` and try these:
 
 ---
 
-Next up: [Pivot Tables](lesson_04_pivot_tables.md) — the most powerful feature in Excel.
+Next up: [Pivot Tables](lesson_04_pivot_tables.md) the most powerful feature in Excel.

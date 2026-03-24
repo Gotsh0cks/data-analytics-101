@@ -21,7 +21,7 @@ Each of these takes an entire column and reduces it down to a single number. Tha
 
 ## Group By: Summaries for Each Category
 
-Here's where things get really useful. What if you don't just want the total revenue — you want the **total revenue for each region**?
+Here's where things get really useful. What if you don't just want the total revenue you want the **total revenue for each region**?
 
 In Excel, you might use a Pivot Table for this. In pandas, you use `.groupby()`:
 
@@ -31,9 +31,9 @@ df.groupby("region")["revenue"].sum()
 
 Read this from left to right:
 
-1. **`df.groupby("region")`** — Split the data into groups, one for each region
-2. **`["revenue"]`** — Focus on the revenue column
-3. **`.sum()`** — Add up the values within each group
+1. **`df.groupby("region")`** Split the data into groups, one for each region
+2. **`["revenue"]`** Focus on the revenue column
+3. **`.sum()`** Add up the values within each group
 
 The result looks like this:
 
@@ -98,14 +98,14 @@ df["revenue"].describe()
 
 This gives you all the key statistics at once:
 
-- **count** — How many values
-- **mean** — The average
-- **std** — Standard deviation (how spread out the values are)
-- **min** — The smallest value
-- **25%** — The value at the 25th percentile
-- **50%** — The median (middle value)
-- **75%** — The value at the 75th percentile
-- **max** — The largest value
+- **count** How many values
+- **mean** The average
+- **std** Standard deviation (how spread out the values are)
+- **min** The smallest value
+- **25%** The value at the 25th percentile
+- **50%** The median (middle value)
+- **75%** The value at the 75th percentile
+- **max** The largest value
 
 Don't worry if percentiles and standard deviation sound new. The important ones to start with are count, mean, min, and max.
 

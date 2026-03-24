@@ -4,14 +4,14 @@
 
 In this module, you will install everything you need for the entire course. We will set up four tools:
 
-1. **Python** — The programming language you will use for data analysis
-2. **VS Code** — A free code editor where you will write and run both Python scripts and SQL queries (your home base for the whole course)
-3. **SQL Server** — A database engine where you will practice SQL queries
-4. **Tableau Public** — A free tool for creating interactive dashboards
+1. **Python** The programming language you will use for data analysis
+2. **VS Code** A free code editor where you will write and run both Python scripts and SQL queries (your home base for the whole course)
+3. **SQL Server** A database engine where you will practice SQL queries
+4. **Tableau Public** A free tool for creating interactive dashboards
 
 ## Before You Start
 
-Set aside about 1-2 hours. Some of these downloads are large, so a stable internet connection helps. Do not worry if something goes wrong — the [Common Errors](common_errors.md) guide covers the most frequent issues.
+Set aside about 1-2 hours. Some of these downloads are large, so a stable internet connection helps. Do not worry if something goes wrong the [Common Errors](common_errors.md) guide covers the most frequent issues.
 
 ## Installation Guides
 

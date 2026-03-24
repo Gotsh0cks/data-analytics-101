@@ -59,7 +59,7 @@ Show the relationship between two numeric fields:
 
 ## Pie Charts
 
-Use sparingly — they're hard to read with more than 5 slices:
+Use sparingly they're hard to read with more than 5 slices:
 
 1. Click **Show Me** (top right)
 2. Select the **pie chart** icon
@@ -84,7 +84,7 @@ Use sparingly — they're hard to read with more than 5 slices:
 ### Colors
 - Click the **Color** box in the Marks card
 - Click **Edit Colors** to choose a color palette
-- Tableau offers color-blind-friendly palettes — use them for accessibility
+- Tableau offers color-blind-friendly palettes use them for accessibility
 
 ### Gridlines and Borders
 - Go to **Format** menu > **Lines** to control gridlines
@@ -99,7 +99,7 @@ Use sparingly — they're hard to read with more than 5 slices:
 Tooltips are the pop-up boxes that appear when you hover over a data point:
 
 1. Click the **Tooltip** box in the Marks card
-2. Edit the text — you can include any field using the **Insert** dropdown
+2. Edit the text you can include any field using the **Insert** dropdown
 3. Example: "Region: <Region>\nRevenue: <SUM(Revenue)>"
 
 ## Professional Tips
@@ -107,7 +107,7 @@ Tooltips are the pop-up boxes that appear when you hover over a data point:
 1. **Remove clutter.** Hide unnecessary gridlines and borders. Less is more.
 2. **Use consistent colors.** If "Electronics" is blue on one chart, keep it blue everywhere.
 3. **Right-align numbers.** Numbers are easier to compare when right-aligned.
-4. **Start bar charts at zero.** Never truncate the axis — it misleads viewers.
+4. **Start bar charts at zero.** Never truncate the axis it misleads viewers.
 5. **Add context.** Include time periods, units, and data sources in titles or captions.
 
 ## Practice

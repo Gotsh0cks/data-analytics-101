@@ -4,9 +4,9 @@
 
 Publishing your dashboards to Tableau Public serves two purposes:
 
-1. **Portfolio.** Potential employers can see your work. Many data analyst job applications ask for Tableau samples — a Tableau Public profile is the easiest way to show them.
+1. **Portfolio.** Potential employers can see your work. Many data analyst job applications ask for Tableau samples a Tableau Public profile is the easiest way to show them.
 
-2. **Sharing.** Anyone with the link can view and interact with your dashboard. No Tableau installation needed — it runs in a web browser.
+2. **Sharing.** Anyone with the link can view and interact with your dashboard. No Tableau installation needed it runs in a web browser.
 
 ## How to Publish
 
@@ -115,4 +115,4 @@ These are skills that employers actively look for. Your Tableau Public profile i
 
 ## What's Next?
 
-Head to [Exercises](lesson_10_exercises.md) for a guided project that brings everything together — you'll build a complete dashboard from scratch using the external datasets.
+Head to [Exercises](lesson_10_exercises.md) for a guided project that brings everything together you'll build a complete dashboard from scratch using the external datasets.

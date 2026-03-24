@@ -14,7 +14,7 @@ df["product"]
 df[["product", "revenue"]]
 ```
 
-When you select multiple columns, you pass a **list** of column names inside the brackets. That's why there are two sets of brackets — the outer ones are for pandas, the inner ones create the list.
+When you select multiple columns, you pass a **list** of column names inside the brackets. That's why there are two sets of brackets the outer ones are for pandas, the inner ones create the list.
 
 ## Filtering Rows by a Condition
 
@@ -65,7 +65,7 @@ The parentheses around each condition are required. Without them, Python gets co
 Sorting rearranges your rows in order. Use `.sort_values()`:
 
 ```python
-# Sort by revenue, lowest to highest (ascending — the default)
+# Sort by revenue, lowest to highest (ascending the default)
 df.sort_values("revenue")
 
 # Sort by revenue, highest to lowest (descending)

@@ -92,7 +92,7 @@ def main():
 
     # ---------------------------------------------------------
     # Change this to any Kaggle dataset you want to download!
-    # Find the slug on the dataset's Kaggle page — it's in the URL.
+    # Find the slug on the dataset's Kaggle page it's in the URL.
     # Example: kaggle.com/datasets/uciml/iris  ->  slug = "uciml/iris"
     # ---------------------------------------------------------
     DATASET_SLUG = "uciml/iris"

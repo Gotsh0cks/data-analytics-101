@@ -2,9 +2,9 @@
 
 ## The Job Market
 
-Data analytics is one of the fastest-growing career fields. Companies of every size — from startups to Fortune 500 — need people who can make sense of their data. And there are not enough qualified people to fill the roles.
+Data analytics is one of the fastest-growing career fields. Companies of every size from startups to Fortune 500 need people who can make sense of their data. And there are not enough qualified people to fill the roles.
 
-This is good news for you. It means the barrier to entry is lower than you might think. Many analysts did not start in tech. They came from finance, marketing, healthcare, education, retail — and taught themselves the tools.
+This is good news for you. It means the barrier to entry is lower than you might think. Many analysts did not start in tech. They came from finance, marketing, healthcare, education, retail and taught themselves the tools.
 
 ---
 
@@ -27,21 +27,21 @@ Similar to a data analyst but focused on building dashboards and reporting syste
 **Typical salary range (US):** $65,000 - $95,000 for entry-level.
 
 ### Marketing Analyst
-Focused on marketing data — ad performance, website traffic, email campaigns, social media engagement.
+Focused on marketing data ad performance, website traffic, email campaigns, social media engagement.
 
 **Day-to-day:** Track campaign performance. Analyze which channels bring the most customers. Build reports showing return on marketing spend.
 
 **Typical salary range (US):** $50,000 - $75,000 for entry-level.
 
 ### Financial Analyst
-Focused on money — revenue, expenses, budgets, forecasts, investments.
+Focused on money revenue, expenses, budgets, forecasts, investments.
 
 **Day-to-day:** Build financial models in Excel. Analyze revenue trends. Create reports for leadership on financial performance.
 
 **Typical salary range (US):** $60,000 - $85,000 for entry-level.
 
 ### Operations Analyst
-Focused on making processes more efficient — supply chains, logistics, workflows.
+Focused on making processes more efficient supply chains, logistics, workflows.
 
 **Day-to-day:** Analyze process data to find bottlenecks. Build dashboards tracking operational metrics. Recommend improvements based on data.
 
@@ -67,7 +67,7 @@ Based on thousands of data analyst job postings, here are the most requested ski
 
 ## You Do Not Need a Degree in Computer Science
 
-Many successful data analysts have degrees in completely unrelated fields — or no degree at all. What matters is:
+Many successful data analysts have degrees in completely unrelated fields or no degree at all. What matters is:
 
 1. **Can you do the work?** This course teaches you the skills.
 2. **Can you show your work?** Your Tableau Public profile and GitHub repository become your portfolio.
@@ -92,14 +92,14 @@ By the end of this course, you will have tangible work to show potential employe
 
 This course gives you a strong foundation. From here, you might explore:
 
-- **Advanced SQL** — window functions, stored procedures, performance tuning
-- **Advanced Python** — machine learning with scikit-learn, data engineering with Airflow
-- **Statistics** — hypothesis testing, regression analysis, A/B testing
-- **Power BI** — Microsoft's alternative to Tableau, very common in enterprise
-- **Cloud platforms** — AWS, Azure, or Google Cloud for working with big data
+- **Advanced SQL** window functions, stored procedures, performance tuning
+- **Advanced Python** machine learning with scikit-learn, data engineering with Airflow
+- **Statistics** hypothesis testing, regression analysis, A/B testing
+- **Power BI** Microsoft's alternative to Tableau, very common in enterprise
+- **Cloud platforms** AWS, Azure, or Google Cloud for working with big data
 
 But do not worry about any of that now. Focus on building the foundation first. The rest comes naturally once you have the basics down.
 
 ---
 
-Next up: [Module 1: Setting Up Your Toolkit](../01-setting-up/) — let's install the tools you need.
+Next up: [Module 1: Setting Up Your Toolkit](../01-setting-up/) let's install the tools you need.

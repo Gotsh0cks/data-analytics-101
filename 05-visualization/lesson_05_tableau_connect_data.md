@@ -2,11 +2,11 @@
 
 ## The Start Page
 
-When you open Tableau Public, you see the **Start** page. The left side has a "Connect" section — this is where you tell Tableau where your data is.
+When you open Tableau Public, you see the **Start** page. The left side has a "Connect" section this is where you tell Tableau where your data is.
 
 For our purposes, you'll use:
-- **Text file** — for CSV files (this is what we'll use most)
-- **Microsoft Excel** — for .xlsx files
+- **Text file** for CSV files (this is what we'll use most)
+- **Microsoft Excel** for .xlsx files
 
 ## Connecting to a CSV File
 
@@ -43,8 +43,8 @@ If Tableau guesses wrong (e.g., treats a date as text), click the icon above the
 
 Tableau sorts your columns into two categories:
 
-- **Dimensions** (blue) — Categorical data you group by: product name, region, department
-- **Measures** (green) — Numeric data you calculate with: revenue, salary, quantity
+- **Dimensions** (blue) Categorical data you group by: product name, region, department
+- **Measures** (green) Numeric data you calculate with: revenue, salary, quantity
 
 This is important because it affects how Tableau builds charts. Dimensions go on the "axes" (categories), and measures get aggregated (summed, averaged, etc.).
 
@@ -64,12 +64,12 @@ Tableau will try to automatically join the tables. If the tables aren't related,
 Once your data looks correct in the preview:
 
 1. Click the **Sheet 1** tab at the bottom of the screen
-2. This takes you to the worksheet — where you build charts
+2. This takes you to the worksheet where you build charts
 
 You'll see:
 - **Left sidebar:** Your columns, split into Dimensions and Measures
 - **Top area:** Empty "Columns" and "Rows" shelves
-- **Center:** A blank canvas — your future chart
+- **Center:** A blank canvas your future chart
 
 ## Quick Check
 

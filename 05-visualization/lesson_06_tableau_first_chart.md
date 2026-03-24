@@ -26,7 +26,7 @@ Make sure you have `sales_data.csv` connected (from Lesson 1) and you're on a wo
 - **Drag it to the Rows shelf**
 - A bar chart appears automatically, showing total revenue per category
 
-Congratulations — you just created your first Tableau chart.
+Congratulations you just created your first Tableau chart.
 
 ### Step 3: Sort the bars
 
@@ -59,11 +59,11 @@ Tableau picks a chart type automatically, but you can change it:
 4. Click the chart type you want to keep
 
 Common types you'll see:
-- **Bar chart** — comparing categories (what we just made)
-- **Line chart** — showing trends over time
-- **Scatter plot** — showing relationships between two numbers
-- **Map** — geographic data
-- **Treemap** — proportional comparison
+- **Bar chart** comparing categories (what we just made)
+- **Line chart** showing trends over time
+- **Scatter plot** showing relationships between two numbers
+- **Map** geographic data
+- **Treemap** proportional comparison
 
 ## Building a Second Chart: Revenue Over Time
 
@@ -87,7 +87,7 @@ By default, Tableau might show years. To see months:
 Filters let viewers focus on specific parts of the data:
 
 1. Drag **Region** from Dimensions to the **Filters** shelf (on the left side)
-2. A dialog box appears — check which regions you want to show
+2. A dialog box appears check which regions you want to show
 3. Click **OK**
 
 To make the filter visible to users:

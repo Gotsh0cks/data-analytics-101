@@ -8,7 +8,7 @@ One of the most valuable skills as a data analyst is knowing **where to find dat
 
 ### Kaggle (kaggle.com/datasets)
 
-**What it is:** The largest community for data science. Thousands of datasets on every topic imaginable — from house prices to Spotify playlists to hospital readmissions.
+**What it is:** The largest community for data science. Thousands of datasets on every topic imaginable from house prices to Spotify playlists to hospital readmissions.
 
 **Good for:** Practice projects, building a portfolio, exploring diverse topics.
 
@@ -59,7 +59,7 @@ One of the most valuable skills as a data analyst is knowing **where to find dat
 
 ### Census Bureau (data.census.gov)
 
-**What it is:** Detailed demographic data about the United States — population, income, education, housing, and more.
+**What it is:** Detailed demographic data about the United States population, income, education, housing, and more.
 
 **Good for:** Geographic analysis, demographic trends, understanding populations.
 
@@ -81,13 +81,13 @@ One of the most valuable skills as a data analyst is knowing **where to find dat
 
 **What it is:** A weekly data project. Every Tuesday, a new dataset is posted for the community to analyze and visualize.
 
-**Good for:** Regular practice. Datasets are varied and interesting — everything from Broadway shows to penguin measurements.
+**Good for:** Regular practice. Datasets are varied and interesting everything from Broadway shows to penguin measurements.
 
 ---
 
 ### Our World in Data (github.com/owid/owid-datasets)
 
-**What it is:** Research and data on global problems — poverty, disease, hunger, climate change, inequality, and more.
+**What it is:** Research and data on global problems poverty, disease, hunger, climate change, inequality, and more.
 
 **Good for:** Time-series data, country comparisons, global trends.
 

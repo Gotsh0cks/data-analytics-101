@@ -8,17 +8,17 @@ If you've used VLOOKUP in Excel, a JOIN does the same thing: it looks up a match
 
 ## How JOINs Work
 
-A JOIN connects two tables based on a **shared column** — a column that appears in both tables and holds matching values. For example, both tables might have a `department_id` column. The JOIN says: "For each row in table A, find the matching row(s) in table B where the values in this column are equal."
+A JOIN connects two tables based on a **shared column** a column that appears in both tables and holds matching values. For example, both tables might have a `department_id` column. The JOIN says: "For each row in table A, find the matching row(s) in table B where the values in this column are equal."
 
 ## A Quick Note About Our Sample Data
 
-Our three practice tables (Sales, Employees, Customers) don't share foreign keys with each other — they're independent tables. So for this lesson, we'll create small temporary tables that *do* have a shared column. This way you can see JOINs in action clearly.
+Our three practice tables (Sales, Employees, Customers) don't share foreign keys with each other they're independent tables. So for this lesson, we'll create small temporary tables that *do* have a shared column. This way you can see JOINs in action clearly.
 
 ## INNER JOIN
 
 An **INNER JOIN** returns only the rows where there's a match in *both* tables.
 
-Picture two circles overlapping (a Venn diagram). An INNER JOIN gives you only the overlapping part — the data that exists in both tables.
+Picture two circles overlapping (a Venn diagram). An INNER JOIN gives you only the overlapping part the data that exists in both tables.
 
 ```sql
 SELECT Orders.order_id, Products.product_name, Orders.quantity
@@ -60,7 +60,7 @@ FROM Orders AS o
 INNER JOIN Products AS p ON o.product_id = p.product_id;
 ```
 
-You can even drop the `AS` keyword — just write `FROM Orders o`.
+You can even drop the `AS` keyword just write `FROM Orders o`.
 
 ## When You Need JOINs in Real Life
 
@@ -75,8 +75,8 @@ Here are common real-world scenarios:
 
 There are two other types you might encounter:
 
-- **RIGHT JOIN** — The mirror of LEFT JOIN. Returns all rows from the right table. In practice, most people just use LEFT JOIN and swap the table order.
-- **FULL OUTER JOIN** — Returns all rows from both tables, with NULLs where there's no match. Less common but useful in certain comparisons.
+- **RIGHT JOIN** The mirror of LEFT JOIN. Returns all rows from the right table. In practice, most people just use LEFT JOIN and swap the table order.
+- **FULL OUTER JOIN** Returns all rows from both tables, with NULLs where there's no match. Less common but useful in certain comparisons.
 
 We'll focus on INNER JOIN and LEFT JOIN since those cover the vast majority of real-world needs.
 
@@ -98,4 +98,4 @@ We'll focus on INNER JOIN and LEFT JOIN since those cover the vast majority of r
 
 ## Next Up
 
-In Lesson 5, you'll learn about **subqueries and CTEs** — queries inside queries that let you tackle more complex questions.
+In Lesson 5, you'll learn about **subqueries and CTEs** queries inside queries that let you tackle more complex questions.

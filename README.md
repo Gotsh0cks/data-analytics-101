@@ -4,12 +4,12 @@ A beginner-friendly, hands-on guide to data analytics. No prior technical experi
 
 This course teaches you to think critically about data and use the same tools that professional data analysts use every day:
 
-1. **Understanding data** — what analytics is, how to think about data problems
-2. **Spreadsheets** — hands-on Excel for formulas, pivot tables, and charts
-3. **Python** — pandas for loading, cleaning, and analyzing data at scale
-4. **SQL** — querying databases with T-SQL and SQL Server
-5. **Visualization** — matplotlib for code-based charts, Tableau for interactive dashboards
-6. **Real-world data** — finding, downloading, and evaluating external datasets
+1. **Understanding data** what analytics is, how to think about data problems
+2. **Spreadsheets** hands-on Excel for formulas, pivot tables, and charts
+3. **Python** pandas for loading, cleaning, and analyzing data at scale
+4. **SQL** querying databases with T-SQL and SQL Server
+5. **Visualization** matplotlib for code-based charts, Tableau for interactive dashboards
+6. **Real-world data** finding, downloading, and evaluating external datasets
 
 ## Who Is This For?
 
@@ -23,7 +23,7 @@ All you need is a computer running Windows and a willingness to learn.
 
 ## How to Get This on Your Computer
 
-If someone sent you a link and you ended up on a page that looks confusing — that is **GitHub**. GitHub is a website where people store and share code. You do not need to understand GitHub to take this course. You just need to download the files once. Here is how:
+If someone sent you a link and you ended up on a page that looks confusing that is **GitHub**. GitHub is a website where people store and share code. You do not need to understand GitHub to take this course. You just need to download the files once. Here is how:
 
 ### Step 1: Download the files
 
@@ -38,7 +38,7 @@ A `.zip` file is like a compressed folder. You need to **extract** (unpack) it b
 1. Open your **Downloads** folder (or wherever your browser saves files).
 2. Find the file `data-analytics-101-main.zip`.
 3. **Right-click** on it and select **"Extract All..."**
-4. Choose a location you will remember — your **Desktop** or **Documents** folder works well.
+4. Choose a location you will remember your **Desktop** or **Documents** folder works well.
 5. Click **Extract**.
 
 You will now have a folder called `data-analytics-101-main`. You can rename it to just `data-analytics-101` if you like.
@@ -47,17 +47,17 @@ You will now have a folder called `data-analytics-101-main`. You can rename it t
 
 Open the folder you just extracted. Inside you will see numbered folders (`00-what-is-data-analytics`, `01-setting-up`, etc.) and this README file. You are ready to go.
 
-**Start reading at Module 0** (scroll down to the module table below, and click the link). Module 0 is just reading — no software to install yet. Module 1 will walk you through installing everything you need.
+**Start reading at Module 0** (scroll down to the module table below, and click the link). Module 0 is just reading no software to install yet. Module 1 will walk you through installing everything you need.
 
 ### How to read the lesson files
 
 The lessons are written in `.md` files (Markdown). You have a few options for reading them:
 
-- **On GitHub** (easiest to start) — Just browse the folders and click any `.md` file. GitHub will display it nicely formatted with headings, tables, and links.
-- **In VS Code** (after Module 1) — Once VS Code is installed, open any `.md` file and press **Ctrl+Shift+V** to see a nicely formatted preview. This is how you will read lessons for the rest of the course.
-- **In Notepad** — You can open `.md` files in Notepad. They are just text, so they are readable even without formatting.
+- **On GitHub** (easiest to start) Just browse the folders and click any `.md` file. GitHub will display it nicely formatted with headings, tables, and links.
+- **In VS Code** (after Module 1) Once VS Code is installed, open any `.md` file and press **Ctrl+Shift+V** to see a nicely formatted preview. This is how you will read lessons for the rest of the course.
+- **In Notepad** You can open `.md` files in Notepad. They are just text, so they are readable even without formatting.
 
-You do not need to pick one — use GitHub for Module 0, then switch to VS Code once it is installed in Module 1.
+You do not need to pick one use GitHub for Module 0, then switch to VS Code once it is installed in Module 1.
 
 ## How to Navigate This Course
 
@@ -96,7 +96,7 @@ After Module 1, you will have a few tools installed. Here is when you use each o
 
 **Start here:** [Module 0 - What Is Data Analytics](00-what-is-data-analytics/)
 
-This module is just reading — no installing or coding. It explains what data analytics is, what tools you will learn, and what kind of career it can lead to. Then Module 1 walks you through installing everything.
+This module is just reading no installing or coding. It explains what data analytics is, what tools you will learn, and what kind of career it can lead to. Then Module 1 walks you through installing everything.
 
 ## Sample Data
 

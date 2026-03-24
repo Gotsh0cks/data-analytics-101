@@ -55,7 +55,7 @@ Visit one of the sources listed in `01_dataset_guide.md` and download a dataset 
 3. Check for missing values
 4. Write down 3 questions you could answer with this data
 
-This is an open-ended exercise — there's no single right answer. The goal is to practice the full workflow of finding, loading, and exploring unfamiliar data.
+This is an open-ended exercise there's no single right answer. The goal is to practice the full workflow of finding, loading, and exploring unfamiliar data.
 
 ---
 

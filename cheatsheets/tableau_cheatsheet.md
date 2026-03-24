@@ -68,9 +68,9 @@ The Marks card (left side of the canvas) controls how data points look:
 - Click the dropdown arrow on the filter pill > **Show Filter**
 
 ### Filter types
-- **Single value dropdown** — user picks one value
-- **Multiple values list** — user checks multiple values
-- **Slider** — for numeric ranges
+- **Single value dropdown** user picks one value
+- **Multiple values list** user checks multiple values
+- **Slider** for numeric ranges
 
 ### Apply filter to all sheets
 - Right-click filter > **Apply to Worksheets** > **All Using This Data Source**

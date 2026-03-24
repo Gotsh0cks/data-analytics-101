@@ -1,6 +1,6 @@
 # Common Tools Overview
 
-Data analysts use a handful of core tools. You do not need to master all of them before getting a job — but you should understand what each one does and when to use it. This course teaches all four.
+Data analysts use a handful of core tools. You do not need to master all of them before getting a job but you should understand what each one does and when to use it. This course teaches all four.
 
 ---
 
@@ -30,7 +30,7 @@ Data analysts use a handful of core tools. You do not need to master all of them
 
 ## Python (with pandas)
 
-**What it is:** A programming language. Pandas is a Python library that makes working with data almost as easy as Excel — but with the power of code.
+**What it is:** A programming language. Pandas is a Python library that makes working with data almost as easy as Excel but with the power of code.
 
 **What it does:**
 - Load data from CSV files, Excel files, databases, and APIs
@@ -68,11 +68,11 @@ Data analysts use a handful of core tools. You do not need to master all of them
 - Datasets are very large (millions or billions of rows)
 - You need to combine data from different sources
 
-**Strengths:** Fast on large datasets. Industry standard — used everywhere. You write exactly what you want in plain-English-like syntax.
+**Strengths:** Fast on large datasets. Industry standard used everywhere. You write exactly what you want in plain-English-like syntax.
 
 **Limitations:** Read-only in most analyst roles (you query data, not design databases). Requires a database server to be running.
 
-**In this course:** Module 4 teaches T-SQL with SQL Server — the most common SQL variant in enterprise.
+**In this course:** Module 4 teaches T-SQL with SQL Server the most common SQL variant in enterprise.
 
 ---
 
@@ -122,10 +122,10 @@ The tools complement each other. This course teaches you all four so you can pic
 
 Most entry-level data analyst job postings ask for:
 
-- **Excel** — almost always required
-- **SQL** — almost always required
-- **Python or R** — frequently required (we teach Python; it is more versatile)
-- **Tableau or Power BI** — frequently preferred
+- **Excel** almost always required
+- **SQL** almost always required
+- **Python or R** frequently required (we teach Python; it is more versatile)
+- **Tableau or Power BI** frequently preferred
 
 By the end of this course, you will have hands-on experience with all four. That puts you in a strong position for entry-level analyst roles.
 
@@ -133,7 +133,7 @@ By the end of this course, you will have hands-on experience with all four. That
 
 ## Where You Will Work: VS Code
 
-One thing that makes this course simpler: **you will use VS Code as your home base.** VS Code is a free code editor that handles both Python and SQL through extensions. That means you write Python scripts *and* SQL queries in the same place — no jumping between applications.
+One thing that makes this course simpler: **you will use VS Code as your home base.** VS Code is a free code editor that handles both Python and SQL through extensions. That means you write Python scripts *and* SQL queries in the same place no jumping between applications.
 
 | What | Where |
 |------|-------|
@@ -144,8 +144,8 @@ One thing that makes this course simpler: **you will use VS Code as your home ba
 | Excel / spreadsheets | Excel, Google Sheets, or LibreOffice |
 | Interactive dashboards | Tableau Public |
 
-You will only leave VS Code for Excel (Module 2) and Tableau (Module 5 Part 2) — both are point-and-click tools that have their own windows.
+You will only leave VS Code for Excel (Module 2) and Tableau (Module 5 Part 2) both are point-and-click tools that have their own windows.
 
 ---
 
-Next up: [Careers and Skills](03_careers_and_skills.md) — what data analyst jobs look like and what they pay.
+Next up: [Careers and Skills](03_careers_and_skills.md) what data analyst jobs look like and what they pay.

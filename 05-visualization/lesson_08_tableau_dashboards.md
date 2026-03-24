@@ -2,7 +2,7 @@
 
 ## What is a Dashboard?
 
-A dashboard combines multiple charts (worksheets) onto a single screen. Instead of flipping between separate charts, viewers see everything at once — with interactive filters that update all charts simultaneously.
+A dashboard combines multiple charts (worksheets) onto a single screen. Instead of flipping between separate charts, viewers see everything at once with interactive filters that update all charts simultaneously.
 
 Dashboards are what stakeholders and managers actually look at. Individual charts are the building blocks; the dashboard is the finished product.
 
@@ -32,7 +32,7 @@ On the left side, under **Size**:
 The left sidebar shows all your worksheets:
 1. **Drag a worksheet** from the sidebar onto the dashboard canvas
 2. It fills the available space
-3. **Drag a second worksheet** — drop it to the left, right, top, or bottom of the first one
+3. **Drag a second worksheet** drop it to the left, right, top, or bottom of the first one
 4. Tableau shows a gray shading to indicate where the new chart will go
 5. Repeat for additional charts
 
@@ -68,7 +68,7 @@ Now this single filter controls all charts on the dashboard.
 
 1. Check the **Show Dashboard Title** checkbox at the bottom of the left sidebar
 2. Double-click the title to edit it
-3. Write something descriptive: "Sales Performance Dashboard — 2024"
+3. Write something descriptive: "Sales Performance Dashboard 2024"
 
 ## Adding Text Boxes
 
@@ -133,4 +133,4 @@ Build a dashboard with:
 4. A Region filter that controls all three charts
 5. A descriptive title
 
-Click around the dashboard — try using charts as filters and see how the other charts respond.
+Click around the dashboard try using charts as filters and see how the other charts respond.

@@ -141,7 +141,7 @@ After running, try:
 
 ## What's Next?
 
-You have completed Part 1 (code-based visualization). Next up is **Part 2: Tableau** — where you will build interactive dashboards using drag-and-drop.
+You have completed Part 1 (code-based visualization). Next up is **Part 2: Tableau** where you will build interactive dashboards using drag-and-drop.
 
 Continue to [Lesson 5: Connecting to Data in Tableau](lesson_05_tableau_connect_data.md).
 

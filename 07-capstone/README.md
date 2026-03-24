@@ -2,7 +2,7 @@
 
 ## What This Module Is
 
-This is not a lesson — it is a project. You will use **every skill** you have learned in this course to complete an end-to-end data analysis, from raw data to published dashboard.
+This is not a lesson it is a project. You will use **every skill** you have learned in this course to complete an end-to-end data analysis, from raw data to published dashboard.
 
 This is the kind of work you would do on the job, and the result will be a portfolio piece you can show to potential employers.
 
@@ -41,8 +41,8 @@ By the end of this project, you should have:
 
 ## Time Estimate
 
-Plan for 3-5 hours, depending on how deep you go. There is no "right" answer — the goal is to practice the full workflow.
+Plan for 3-5 hours, depending on how deep you go. There is no "right" answer the goal is to practice the full workflow.
 
 ## You Made It!
 
-If you have completed all modules and finished your capstone project — congratulations. You now have hands-on experience with Excel, Python, SQL, matplotlib, and Tableau. That is a strong foundation for an entry-level data analyst role. Keep practicing, keep exploring new datasets, and keep building your portfolio.
+If you have completed all modules and finished your capstone project congratulations. You now have hands-on experience with Excel, Python, SQL, matplotlib, and Tableau. That is a strong foundation for an entry-level data analyst role. Keep practicing, keep exploring new datasets, and keep building your portfolio.

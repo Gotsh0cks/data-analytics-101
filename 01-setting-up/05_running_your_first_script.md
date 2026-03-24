@@ -4,7 +4,7 @@
 
 A script is a **text file with instructions for the computer**. That is all it is. When you "run" a script, you are telling the computer: "Read this file and do what it says."
 
-A Python script is a text file that ends with `.py` (that is its **file extension** — the letters after the dot in a file name that tell the computer what kind of file it is, like how `.docx` means a Word document and `.jpg` means a photo).
+A Python script is a text file that ends with `.py` (that is its **file extension** the letters after the dot in a file name that tell the computer what kind of file it is, like how `.docx` means a Word document and `.jpg` means a photo).
 
 We have already created a tiny script for you called `hello.py`. Let's run it together.
 
@@ -43,7 +43,7 @@ A panel will appear at the bottom of the VS Code window. You will see some text 
 
 ## Step 4: Navigate to the Right Folder
 
-The terminal needs to know which folder you want to work in. Right now, it is probably in the `data-analytics-101` folder (you can see the current folder name in the terminal prompt — it is the text before the blinking cursor).
+The terminal needs to know which folder you want to work in. Right now, it is probably in the `data-analytics-101` folder (you can see the current folder name in the terminal prompt it is the text before the blinking cursor).
 
 Type the following command and press Enter:
 
@@ -88,7 +88,7 @@ That might seem simple, but take a moment to appreciate what just happened. You:
 3. Told Python to execute a script
 4. And it worked!
 
-Every complex program, every data analysis, every app on your phone — they all started just like this: someone wrote instructions in a file and told a computer to run them.
+Every complex program, every data analysis, every app on your phone they all started just like this: someone wrote instructions in a file and told a computer to run them.
 
 ---
 
@@ -103,7 +103,7 @@ If you are curious about what went on behind the scenes:
 5. `print()` is a Python command that means "display this text on the screen."
 6. Python followed that instruction and displayed the text in your terminal.
 
-That is it. No magic — just a computer reading instructions from a file and following them, one step at a time.
+That is it. No magic just a computer reading instructions from a file and following them, one step at a time.
 
 ---
 
@@ -131,4 +131,4 @@ Changing code and re-running it to see what happens is how programmers learn. Do
 
 You have now confirmed that Python works on your computer and you know how to run a script. If you have already installed everything from the table in the [Module 1 README](README.md), you are ready to start learning.
 
-Next up: [Module 2: Spreadsheets](../02-spreadsheets/) — your first hands-on work with data.
+Next up: [Module 2: Spreadsheets](../02-spreadsheets/) your first hands-on work with data.

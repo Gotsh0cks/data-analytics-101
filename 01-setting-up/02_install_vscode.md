@@ -2,18 +2,18 @@
 
 ## What Is VS Code?
 
-VS Code (short for Visual Studio Code) is a **text editor designed for writing code**. Think of it like Microsoft Word, but instead of writing essays, you write programs. It is free, made by Microsoft, and used by millions of people — from beginners to professionals.
+VS Code (short for Visual Studio Code) is a **text editor designed for writing code**. Think of it like Microsoft Word, but instead of writing essays, you write programs. It is free, made by Microsoft, and used by millions of people from beginners to professionals.
 
 You could technically write code in Notepad, but VS Code makes your life much easier. It color-codes your code so it is easier to read, catches mistakes as you type, and has a built-in terminal (we will explain what that is shortly).
 
 ## VS Code Is Your Home Base
 
-Throughout this course, **VS Code is where you will spend most of your time.** It is not just for Python — by adding extensions, VS Code becomes your single workspace for:
+Throughout this course, **VS Code is where you will spend most of your time.** It is not just for Python by adding extensions, VS Code becomes your single workspace for:
 
-- **Reading lessons** — the `.md` lesson files open nicely in VS Code (right-click a `.md` file > "Open Preview")
-- **Writing and running Python** — Modules 3, 5, 6, and 7
-- **Writing and running SQL** — Module 4
-- **Using the terminal** — installing packages, running scripts
+- **Reading lessons** the `.md` lesson files open nicely in VS Code (right-click a `.md` file > "Open Preview")
+- **Writing and running Python** Modules 3, 5, 6, and 7
+- **Writing and running SQL** Module 4
+- **Using the terminal** installing packages, running scripts
 
 The only times you will leave VS Code are for **Excel** (Module 2) and **Tableau** (Module 5 Part 2), which are point-and-click tools with their own windows. Everything else happens here.
 
@@ -33,10 +33,10 @@ The only times you will leave VS Code are for **Excel** (Module 2) and **Tableau
 1. Open the downloaded file.
 2. If Windows asks "Do you want to allow this app to make changes to your device?", click **Yes**.
 3. Accept the license agreement and click **Next**.
-4. Keep clicking **Next** through the options — the default settings are fine for our purposes.
+4. Keep clicking **Next** through the options the default settings are fine for our purposes.
 5. On the "Select Additional Tasks" screen, it is helpful (but not required) to check:
-   - **"Add 'Open with Code' action to Windows Explorer file context menu"** — this lets you right-click any folder and open it directly in VS Code, which is very handy.
-   - **"Add 'Open with Code' action to Windows Explorer directory context menu"** — same idea but for when you right-click inside a folder.
+   - **"Add 'Open with Code' action to Windows Explorer file context menu"** this lets you right-click any folder and open it directly in VS Code, which is very handy.
+   - **"Add 'Open with Code' action to Windows Explorer directory context menu"** same idea but for when you right-click inside a folder.
 6. Click **Install**.
 7. Wait for the installation to finish, then click **Finish**.
 
@@ -66,7 +66,7 @@ This extension gives you:
 
 ## Step 3b: Install the SQL Server Extension
 
-Later in this course (Module 4), you will write SQL queries to talk to databases. Instead of using a separate application for SQL, we will install an extension that lets you **write and run SQL directly in VS Code** — the same place you write Python.
+Later in this course (Module 4), you will write SQL queries to talk to databases. Instead of using a separate application for SQL, we will install an extension that lets you **write and run SQL directly in VS Code** the same place you write Python.
 
 1. Open the **Extensions** panel again (click the puzzle piece icon or press **Ctrl+Shift+X**).
 2. In the search box, type: **SQL Server (mssql)**
@@ -105,9 +105,9 @@ There are two ways to open it:
 2. Click **New Terminal**.
 
 **Option B: Using a keyboard shortcut**
-1. Press **Ctrl+`** (that is the backtick key — it is usually in the top-left of your keyboard, on the same key as the tilde ~, just below the Escape key).
+1. Press **Ctrl+`** (that is the backtick key it is usually in the top-left of your keyboard, on the same key as the tilde ~, just below the Escape key).
 
-A panel will appear at the bottom of the VS Code window. This is your terminal. You can type commands here just like you did in the Command Prompt earlier. In fact, it works the same way — but now it is conveniently inside your code editor.
+A panel will appear at the bottom of the VS Code window. This is your terminal. You can type commands here just like you did in the Command Prompt earlier. In fact, it works the same way but now it is conveniently inside your code editor.
 
 You will use this terminal a lot throughout the course to run your Python scripts and other commands.
 

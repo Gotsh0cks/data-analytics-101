@@ -8,9 +8,9 @@ In this lesson, you'll learn how to spot problems in your data and fix them.
 
 Here are some common problems you'll encounter:
 
-- **Missing values** — Some cells are blank. Maybe a customer didn't fill in their email, or a sensor lost its connection for a moment.
-- **Duplicate rows** — The same record appears more than once, perhaps because data was imported twice.
-- **Wrong data types** — A date column is stored as plain text instead of an actual date, or a number column contains some text entries.
+- **Missing values** Some cells are blank. Maybe a customer didn't fill in their email, or a sensor lost its connection for a moment.
+- **Duplicate rows** The same record appears more than once, perhaps because data was imported twice.
+- **Wrong data types** A date column is stored as plain text instead of an actual date, or a number column contains some text entries.
 
 If you don't clean these up, your calculations could be wrong or your code could crash.
 
@@ -39,7 +39,7 @@ df[df["revenue"].isnull()]
 
 You have two main options:
 
-### Option 1: Remove rows with missing values — `.dropna()`
+### Option 1: Remove rows with missing values `.dropna()`
 
 ```python
 # Drop any row that has at least one missing value
@@ -51,7 +51,7 @@ df_clean = df.dropna(subset=["revenue"])
 
 Use this when you have plenty of data and the missing rows are a small fraction of the total.
 
-### Option 2: Fill in missing values — `.fillna()`
+### Option 2: Fill in missing values `.fillna()`
 
 ```python
 # Fill missing revenue with 0
@@ -63,7 +63,7 @@ df["revenue"] = df["revenue"].fillna(df["revenue"].mean())
 
 Use this when you don't want to lose rows. Filling with 0 makes sense for some situations (like "no sale happened"), while filling with the average makes sense for others (like estimating a missing measurement).
 
-There is no single right answer — it depends on your data and what you're trying to learn from it.
+There is no single right answer it depends on your data and what you're trying to learn from it.
 
 ## Finding Duplicates
 
@@ -90,7 +90,7 @@ df_clean = df.drop_duplicates()
 df_clean = df.drop_duplicates(subset=["date", "product", "region"])
 ```
 
-The `subset` parameter is useful when you want to define what counts as a "duplicate." For example, two rows might have the same date, product, and region but different revenue — you decide whether that's a real duplicate or not.
+The `subset` parameter is useful when you want to define what counts as a "duplicate." For example, two rows might have the same date, product, and region but different revenue you decide whether that's a real duplicate or not.
 
 ## Changing Column Types
 

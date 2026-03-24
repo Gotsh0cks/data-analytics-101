@@ -20,7 +20,7 @@ We will install the **free** version called SQL Server Express. It has everythin
 
 ## How Will You Write SQL?
 
-You already installed VS Code for writing Python. The good news: **VS Code can also run SQL queries.** You installed the SQL Server (mssql) extension in the previous step ([Install VS Code](02_install_vscode.md)), which gives VS Code the ability to connect to SQL Server and run queries — all without leaving the editor.
+You already installed VS Code for writing Python. The good news: **VS Code can also run SQL queries.** You installed the SQL Server (mssql) extension in the previous step ([Install VS Code](02_install_vscode.md)), which gives VS Code the ability to connect to SQL Server and run queries all without leaving the editor.
 
 This means VS Code is your **single workspace** for both Python and SQL throughout this course. No need to switch between different applications.
 
@@ -32,10 +32,10 @@ This means VS Code is your **single workspace** for both Python and SQL througho
 
 1. Open your web browser.
 2. Go to **[https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)**
-3. Scroll down the page. You will see different editions of SQL Server. Look for the section labeled **"Express"** — it will say "Free" underneath it.
-   - **Do not** pick "Developer" or "Enterprise" — those are more complex to set up. Express is the right choice for learning.
+3. Scroll down the page. You will see different editions of SQL Server. Look for the section labeled **"Express"** it will say "Free" underneath it.
+   - **Do not** pick "Developer" or "Enterprise" those are more complex to set up. Express is the right choice for learning.
 4. Click the **"Download now"** button under Express.
-5. A small file will download (called something like `SQL2022-SSEI-Expr.exe`). This is not the full installer — it is a downloader that will fetch the rest.
+5. A small file will download (called something like `SQL2022-SSEI-Expr.exe`). This is not the full installer it is a downloader that will fetch the rest.
 
 ### Step 2: Run the Installer
 
@@ -44,11 +44,11 @@ This means VS Code is your **single workspace** for both Python and SQL througho
 3. You will see three installation options. Click **"Basic"**.
    - Basic gives you a standard installation with sensible defaults. This is the easiest path and is perfect for learning.
 4. Accept the license terms.
-5. You can keep the default install location or change it. The default is fine — just click **Install**.
+5. You can keep the default install location or change it. The default is fine just click **Install**.
 6. The installer will download and set up SQL Server. This can take **5 to 15 minutes** depending on your internet speed. You will see a progress bar.
 7. When it finishes, you will see a summary screen showing your connection information. You will see something like:
    - **Instance name:** SQLEXPRESS
-   - **Connection string:** (a long line of text — you do not need to worry about this right now)
+   - **Connection string:** (a long line of text you do not need to worry about this right now)
 
 **Important:** Make a note of the instance name. It is usually **SQLEXPRESS**. You will need it in a moment.
 
@@ -73,12 +73,12 @@ If it is not already open, press the Windows key, type **Visual Studio Code**, a
 | Prompt | What to Type |
 |--------|-------------|
 | **Server name** | `localhost\SQLEXPRESS` |
-| **Database name** | Press **Enter** to skip (leave blank — this connects to the whole server) |
+| **Database name** | Press **Enter** to skip (leave blank this connects to the whole server) |
 | **Authentication type** | Select **Windows Authentication** |
 | **Profile name** | Type `Local SQL Server` (or any name you like) and press **Enter** |
 
 **What does this mean?**
-- **localhost** means "this computer" — the SQL Server is running right here on your machine, not on some remote server.
+- **localhost** means "this computer" the SQL Server is running right here on your machine, not on some remote server.
 - **\SQLEXPRESS** is the name of the SQL Server instance you installed.
 - **Windows Authentication** means SQL Server will verify your identity using your Windows login, so you do not need a separate username and password.
 
@@ -99,19 +99,19 @@ SELECT @@VERSION;
 4. If VS Code asks you to choose a connection, select the **Local SQL Server** profile you just created.
 5. You should see a results panel appear at the bottom showing the SQL Server version information.
 
-If you see results, everything is working. You can delete `test.sql` — it was just for testing.
+If you see results, everything is working. You can delete `test.sql` it was just for testing.
 
 ---
 
-## Running SQL Files in VS Code — Quick Reference
+## Running SQL Files in VS Code Quick Reference
 
 You will use these steps throughout Module 4 when working with `.sql` files:
 
 1. **Open** the `.sql` file in VS Code (double-click it in the Explorer sidebar, or use File > Open File)
-2. **Connect** — if VS Code asks which connection to use, pick your **Local SQL Server** profile
-3. **Run the whole file** — press **Ctrl+Shift+E**
-4. **Run just a selection** — highlight the lines you want to run, then press **Ctrl+Shift+E**
-5. **View results** — they appear in a panel at the bottom of VS Code
+2. **Connect** if VS Code asks which connection to use, pick your **Local SQL Server** profile
+3. **Run the whole file** press **Ctrl+Shift+E**
+4. **Run just a selection** highlight the lines you want to run, then press **Ctrl+Shift+E**
+5. **View results** they appear in a panel at the bottom of VS Code
 
 | Action | Shortcut |
 |--------|----------|

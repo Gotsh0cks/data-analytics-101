@@ -77,5 +77,5 @@ if "category" in df.columns:
     print(df["category"].value_counts())
 else:
     # If there's no category column, use product instead
-    print("(No 'category' column found — showing product counts instead)")
+    print("(No 'category' column found showing product counts instead)")
     print(df["product"].value_counts())

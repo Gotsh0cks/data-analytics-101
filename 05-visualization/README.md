@@ -6,8 +6,8 @@ Data analysis means nothing if you cannot communicate what you found. Visualizat
 
 This module teaches **two complementary approaches**:
 
-- **Part 1: Code-Based Visualization** — Python with matplotlib and seaborn. Precise, reproducible, scriptable.
-- **Part 2: Interactive Dashboards** — Tableau Public. Drag-and-drop, interactive, ready to share.
+- **Part 1: Code-Based Visualization** Python with matplotlib and seaborn. Precise, reproducible, scriptable.
+- **Part 2: Interactive Dashboards** Tableau Public. Drag-and-drop, interactive, ready to share.
 
 ## When to Use Which
 
@@ -64,8 +64,8 @@ After completing all lessons, head to [Exercises](lesson_10_exercises.md) for pr
 
 ## A Quick Note
 
-Charts are one of the most powerful tools in data analytics. When you hand someone a table with 100 rows of numbers, their eyes glaze over. When you hand them a clean bar chart, they immediately see the story. This module teaches you how to tell that story — with both code and drag-and-drop tools.
+Charts are one of the most powerful tools in data analytics. When you hand someone a table with 100 rows of numbers, their eyes glaze over. When you hand them a clean bar chart, they immediately see the story. This module teaches you how to tell that story with both code and drag-and-drop tools.
 
 ## Next Steps
 
-Once you have completed the lessons and exercises, move on to [Module 6: Real-World Data](../06-real-world-data/) — where you will learn to find and download external datasets for your own analysis.
+Once you have completed the lessons and exercises, move on to [Module 6: Real-World Data](../06-real-world-data/) where you will learn to find and download external datasets for your own analysis.
