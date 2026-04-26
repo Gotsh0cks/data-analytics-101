@@ -25,6 +25,9 @@ desktop.ini
 worktrees/
 
 # Learner-generated exercise outputs
+05-visualization/exercise_outputs/
+07-capstone/capstone_outputs/
+07-capstone/example_project/outputs/
 exercise_*.png
 chart_*.png
 *.log
