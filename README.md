@@ -94,9 +94,11 @@ After Module 1, you will have a few tools installed. Here is when you use each o
 
 ## Getting Started
 
-**Start here:** [Module 0 - What Is Data Analytics](00-what-is-data-analytics/)
+**First time here?** Start with [START_HERE.md](START_HERE.md). It explains how to use this course, how to check your setup, and how to ask for help if you get stuck.
 
-This module is just reading no installing or coding. It explains what data analytics is, what tools you will learn, and what kind of career it can lead to. Then Module 1 walks you through installing everything.
+After that, begin with [Module 0 - What Is Data Analytics](00-what-is-data-analytics/).
+
+Module 0 is just reading no installing or coding. It explains what data analytics is, what tools you will learn, and what kind of career it can lead to. Then Module 1 walks you through installing everything.
 
 ## Sample Data
 
@@ -122,6 +124,9 @@ Everything else is covered in Modules 0 and 1.
 
 | Resource | What It Is |
 |----------|-----------|
+| [Start Here](START_HERE.md) | Friendly first stop for self-paced learners |
+| [Progress Tracker](progress_tracker.md) | Checklist for tracking your course progress |
+| [Get Help](GET_HELP.md) | Template for asking for help when you are stuck |
 | [Cheatsheets](cheatsheets/) | Printable quick-reference sheets for Excel, pandas, SQL, matplotlib, Tableau |
 | [Sample Data](data/) | The CSV files used throughout the course |
-| [Module 0](00-what-is-data-analytics/) | Start here |
+| [Module 0](00-what-is-data-analytics/) | First course module |
