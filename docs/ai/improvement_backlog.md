@@ -38,6 +38,7 @@ This backlog is for future Codex sessions and human review. Keep it focused on p
 - Added a Module 3 exercise support ladder with hints, expected outputs, and a solution script.
 - Added support ladders for Modules 2, 4, 5, and 6 with hints, expected outputs, and solutions.
 - Added capstone completion support with a rubric, write-up template, and example project.
+- Added a first-session guide, expanded setup rescue guide, module readiness checks, and private learner helper guide.
 
 ## Parking Lot
 
