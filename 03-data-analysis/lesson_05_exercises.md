@@ -1,8 +1,16 @@
-# Module 1 Exercises
+# Module 3 Exercises
 
-Time to practice what you've learned. These exercises use the `employees.csv` and `customers.csv` datasets in the `../data/` folder. Try to solve each one on your own before looking at the hints at the bottom.
+Time to practice what you have learned. These exercises use the `employees.csv` and `customers.csv` datasets in the `../data/` folder.
 
-You can write your solutions in a new Python file (for example, `exercises.py`) in this folder, or try them out in an interactive Python session.
+Try to solve each one on your own first. You can write your solutions in a new Python file, for example `exercises.py`, in this folder.
+
+## Support Ladder
+
+Use these only after you have tried:
+
+1. [Hints](hints/lesson_05_hints.md) if you are stuck.
+2. [Expected outputs](expected_outputs/lesson_05_expected_outputs.md) to check your answers.
+3. [Full solution script](solutions/lesson_05_solutions.py) after you have tried and compared your output.
 
 ---
 
@@ -63,27 +71,3 @@ Load `../data/customers.csv`. Which state has the most customers? Show the top 5
 ```python
 # Your code here
 ```
-
----
-
-## Hints
-
-Try to solve each exercise on your own first. If you get stuck, these hints will point you in the right direction.
-
-**Exercise 1:**
-Use `pd.read_csv()` to load the file. Use `.head(10)` to see the first 10 rows (instead of the default 5). Use `.shape` to find the number of rows and columns.
-
-**Exercise 2:**
-Select the department column and use `.value_counts()`. It sorts from most to least by default.
-
-**Exercise 3:**
-Use `.groupby("department")["salary"].mean()`. To find the highest, you can add `.sort_values(ascending=False)` and look at the first row, or use `.idxmax()` to get the department name directly.
-
-**Exercise 4:**
-First, convert the hire date column to a datetime type using `pd.to_datetime()`. Then filter with a comparison: `df[df["hire_date"] > "2022-01-01"]`. Use `len()` to count the rows.
-
-**Exercise 5:**
-Use `df.isnull().sum()` to count missing values per column. To see only the columns that have missing data, you can add a filter: `missing = df.isnull().sum()` then `missing[missing > 0]`.
-
-**Exercise 6:**
-Load the file with `pd.read_csv()`. Use the state column's `.value_counts()` method, then use `.head(5)` to see only the top 5.
