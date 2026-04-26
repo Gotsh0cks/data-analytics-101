@@ -2,6 +2,14 @@
 
 Practice your spreadsheet skills. Open the Excel files in `data/excel/` and work through these exercises.
 
+## Support Ladder
+
+Try the exercises first. If you get stuck, use the support files in this order:
+
+1. Start with [hints](hints/lesson_06_hints.md).
+2. Check your work with [expected outputs](expected_outputs/lesson_06_expected_outputs.md).
+3. Review the full walkthrough in [solutions](solutions/lesson_06_solutions.md).
+
 ---
 
 ## Exercise 1: Formulas Practice
@@ -36,7 +44,7 @@ Using `data/excel/sales_data.xlsx`:
 
 1. Filter to show only "Furniture" sales. How many are there?
 2. Filter to show sales where revenue > $1,000. How many are there?
-3. Filter to show "Electronics" sales in the "North" region. What is the total revenue? (Use the SUM formula on the visible cells, or check the status bar at the bottom)
+3. Filter to show "Electronics" sales in the "North" region. What is the total revenue? (Use the status bar at the bottom, or use `SUBTOTAL` so hidden rows are ignored.)
 4. Clear all filters when done
 
 ---
@@ -70,15 +78,3 @@ For each chart:
 - Remove unnecessary gridlines or legends
 
 ---
-
-## Hints
-
-**Exercise 1:** Use `=SUM(F2:F51)` for total payroll (adjust the range to match your data). `=COUNTIF(D2:D51, "Sales")` counts Sales employees.
-
-**Exercise 2:** Use Data > Sort. For multi-level sorting, use Data > Sort and add levels.
-
-**Exercise 3:** Remember to turn on filters first (Data > Filter). The status bar at the bottom-right shows Sum/Average/Count of selected or visible cells.
-
-**Exercise 4:** Insert > PivotTable. Drag fields to Rows, Columns, and Values. Change the value calculation by clicking the dropdown in the Values area.
-
-**Exercise 5:** Create a pivot table first to get the summary data, then insert a chart from the pivot table.
