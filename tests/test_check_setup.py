@@ -1,6 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 import check_setup
 
@@ -39,6 +40,51 @@ class SetupCheckTests(unittest.TestCase):
 
         self.assertEqual(result.status, "FIX")
         self.assertTrue(result.required)
+
+    def test_missing_required_package_detail_installs_core_packages_only(self):
+        result = check_setup.check_package(
+            "pandas",
+            required=True,
+            module_available_fn=lambda package_name: False,
+        )
+
+        self.assertIn(
+            "python -m pip install pandas matplotlib seaborn openpyxl requests",
+            result.detail,
+        )
+        self.assertNotIn("requirements.txt", result.detail)
+
+    def test_missing_later_package_does_not_count_as_required_collect_failure(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            for folder in check_setup.COURSE_FOLDERS:
+                (root / folder).mkdir()
+            for relative_path, _name in check_setup.CORE_DATA_FILES:
+                path = root / relative_path
+                path.parent.mkdir(exist_ok=True)
+                path.write_text("example\n", encoding="utf-8")
+
+            def fake_check_package(package_name, required=True):
+                if required:
+                    return check_setup.CheckResult("OK", package_name, "Package is installed")
+                return check_setup.CheckResult(
+                    "LATER",
+                    package_name,
+                    "Not installed yet. You only need this later for SQL Server lessons.",
+                    required=False,
+                )
+
+            with patch("check_setup.check_package", side_effect=fake_check_package):
+                results = check_setup.collect_results(root, root)
+
+        later_results = [result for result in results if result.status == "LATER"]
+        failure_count = sum(
+            1 for result in results if result.required and result.status == "FIX"
+        )
+
+        self.assertEqual(len(later_results), 1)
+        self.assertFalse(later_results[0].required)
+        self.assertEqual(failure_count, 0)
 
     def test_check_working_directory_reports_wrong_folder(self):
         with tempfile.TemporaryDirectory() as root_dir, tempfile.TemporaryDirectory() as other_dir:

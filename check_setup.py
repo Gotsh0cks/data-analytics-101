@@ -85,10 +85,11 @@ def check_package(package_name, required=True, module_available_fn=module_availa
         return CheckResult("OK", package_name, "Package is installed", required=required)
 
     if required:
+        core_packages = " ".join(package_name for package_name, _purpose in REQUIRED_PACKAGES)
         return CheckResult(
             "FIX",
             package_name,
-            "Package is missing. Run: python -m pip install -r requirements.txt",
+            f"Package is missing. Run: python -m pip install {core_packages}",
             required=True,
         )
 
