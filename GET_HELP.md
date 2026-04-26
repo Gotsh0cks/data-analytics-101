@@ -2,13 +2,13 @@
 
 Getting stuck is normal. Most beginner problems come from one small detail: a folder, command, package, file name, or setup step.
 
-Before asking for help, run this command from the main course folder:
+If Python is already installed, try this command from the main course folder:
 
 ```bash
 python check_setup.py
 ```
 
-If you still need help, copy the template below and fill it in.
+If you cannot run that command yet, that is okay. You can still ask for help with the template below.
 
 ## Help Request Template
 
