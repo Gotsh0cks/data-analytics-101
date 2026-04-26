@@ -66,6 +66,24 @@ After completing all lessons, head to [Exercises](lesson_10_exercises.md) for pr
 
 Charts are one of the most powerful tools in data analytics. When you hand someone a table with 100 rows of numbers, their eyes glaze over. When you hand them a clean bar chart, they immediately see the story. This module teaches you how to tell that story with both code and drag-and-drop tools.
 
+## Before You Move On
+
+You are ready for Module 6 when you can:
+
+- Create and save a matplotlib chart as a PNG.
+- Choose a reasonable chart type for a comparison, trend, or relationship.
+- Add a clear title and readable axis labels.
+- Prepare Tableau-ready CSV files.
+- Connect Tableau Public to a CSV file.
+- Build at least one Tableau chart or dashboard.
+- Compare chart data to expected outputs instead of judging only by appearance.
+
+## Quick Reflection
+
+- Which chart made the data easiest to understand?
+- What formatting choice made a chart clearer?
+- When would you choose Tableau instead of matplotlib?
+
 ## Next Steps
 
 Once you have completed the lessons and exercises, move on to [Module 6: Real-World Data](../06-real-world-data/) where you will learn to find and download external datasets for your own analysis.

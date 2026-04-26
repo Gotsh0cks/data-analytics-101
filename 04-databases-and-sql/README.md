@@ -70,6 +70,24 @@ Same concepts, three different tools. Pick the best one for the situation.
 - **Read the error messages.** SQL Server gives you helpful clues about what went wrong.
 - **Run queries in small pieces.** If a big query does not work, try running just the inner part first.
 
+## Before You Move On
+
+You are ready for Module 5 when you can:
+
+- Connect to the `DataAnalytics101` database.
+- Run the setup script without errors.
+- Write a `SELECT` query that chooses specific columns.
+- Use `WHERE` and `ORDER BY` to filter and sort results.
+- Use `GROUP BY` with `COUNT`, `SUM`, or `AVG`.
+- Recognize when a query needs a join or subquery.
+- Use expected outputs to check whether your SQL result matches.
+
+## Quick Reflection
+
+- Which SQL keyword feels most natural so far?
+- What SQL error message did you run into, and what did it mean?
+- How is SQL similar to filtering or pivoting in Excel?
+
 ## Next Steps
 
 Once you have completed the lessons and exercises, move on to [Module 5: Visualization](../05-visualization/) — where you will learn to turn your analysis into charts and dashboards.

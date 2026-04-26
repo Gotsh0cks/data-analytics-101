@@ -51,6 +51,24 @@ By the end of this project, you should have:
 
 Plan for 3-5 hours, depending on how deep you go. There is no "right" answer. The goal is to practice the full workflow.
 
+## Before You Finish
+
+Your capstone is ready to share when you can:
+
+- Name the dataset you used and where it came from.
+- Explain the 3-5 questions you tried to answer.
+- Describe at least one cleaning step or explain why none was needed.
+- Show at least three findings with numbers or charts.
+- Save at least three charts or include them in a dashboard.
+- Use the rubric to decide that the project is finished enough.
+- Write a short summary in your own words.
+
+## Quick Reflection
+
+- What finding would you tell someone first?
+- What part of the workflow felt most like real data work?
+- What would you improve if you spent one more hour on the project?
+
 ## You Made It!
 
 If you have completed all modules and finished your capstone project congratulations. You now have hands-on experience with Excel, Python, SQL, matplotlib, and Tableau. That is a strong foundation for an entry-level data analyst role. Keep practicing, keep exploring new datasets, and keep building your portfolio.

@@ -54,6 +54,23 @@ This creates ready-to-use Excel workbooks in `data/excel/` that you will open th
 
 After completing the lessons, test your skills with the [Exercises](lesson_06_exercises.md).
 
+## Before You Move On
+
+You are ready for Module 3 when you can:
+
+- Open the sample Excel files in `data/excel/`.
+- Use formulas like `SUM`, `AVERAGE`, and `COUNTIF`.
+- Sort and filter rows without mixing up the data.
+- Build a pivot table that summarizes values by category.
+- Create a simple chart with a clear title and labels.
+- Use the exercise hints, expected outputs, and solutions in that order.
+
+## Quick Reflection
+
+- Which spreadsheet task felt most useful?
+- What is one mistake you made and fixed?
+- How would you explain a pivot table to someone else?
+
 ## Next Steps
 
 Once you are comfortable with Excel, move on to [Module 3: Data Analysis with Python](../03-data-analysis/) — where you will learn to do the same things with code, unlocking the ability to work with bigger datasets and automate your work.

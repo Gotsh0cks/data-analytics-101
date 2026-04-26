@@ -57,6 +57,24 @@ After completing the lessons, test your skills with the [Exercises](lesson_05_ex
 
 > **Tip from Module 2:** Remember how pivot tables let you summarize data by category in seconds? In Lesson 3, you will learn `groupby()` the pandas equivalent. Same concept, different tool.
 
+## Before You Move On
+
+You are ready for Module 4 when you can:
+
+- Run a Python script from the main course folder.
+- Load a CSV file with `pd.read_csv()`.
+- Use `head()`, `shape`, and `info()` to inspect a DataFrame.
+- Filter rows using a condition.
+- Sort rows by a column.
+- Use `groupby()` to calculate counts, sums, or averages.
+- Compare your exercise output to the expected outputs before reading the solution.
+
+## Quick Reflection
+
+- What feels different between doing analysis in Excel and pandas?
+- Which pandas command do you expect to use most often?
+- What error did you learn how to read or fix?
+
 ## Next Steps
 
 Once you have completed the lessons and exercises, move on to [Module 4: Databases & SQL](../04-databases-and-sql/) where you will learn to pull data directly from a database using SQL.

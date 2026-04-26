@@ -43,6 +43,25 @@ Once everything is installed:
 
 Excel (or a free alternative like Google Sheets or LibreOffice Calc) is covered in Module 2. If you already have Microsoft Excel installed, you are all set. If not, Module 2 explains your options.
 
+## Before You Move On
+
+You are ready for Module 2 when you can:
+
+- Open the main `data-analytics-101` folder in VS Code.
+- Open a terminal inside VS Code.
+- Run `python --version` or `py --version`.
+- Run `python check_setup.py` from the main course folder.
+- Open and run `hello.py`.
+- Find `GET_HELP.md` if an install step breaks.
+
+It is okay if SQL Server or Tableau still feels fuzzy. You will use them later with more specific instructions.
+
+## Quick Reflection
+
+- Which setup step felt easiest?
+- Which setup step would you want help with if it breaks later?
+- Can you explain where the main course folder is on your computer?
+
 ## Next Steps
 
 Once everything is installed, move on to [Module 2: Spreadsheets](../02-spreadsheets/) to start working with data.

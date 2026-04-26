@@ -34,7 +34,25 @@ After completing the lessons, head to [Exercises](05_exercises.md) for hands-on 
 
 ## What Gets Downloaded
 
-The download script saves files to `../data/external/`. These datasets are also used in the capstone project (Module 7), so keep them around.
+The download script saves files to `data/external/` when you run it from the main course folder. These datasets are also used in the capstone project (Module 7), so keep them around.
+
+## Before You Move On
+
+You are ready for Module 7 when you can:
+
+- Name at least two places to find public datasets.
+- Run the public dataset download script.
+- Find downloaded files in `data/external/`.
+- Load an unfamiliar CSV into pandas.
+- Check shape, column names, data types, and missing values.
+- Write three answerable questions based on columns in a dataset.
+- Explain one limitation or caution about a dataset.
+
+## Quick Reflection
+
+- Which dataset seemed most interesting to you?
+- What is one question the data can answer?
+- What is one question the data cannot answer by itself?
 
 ## Next Steps
 
