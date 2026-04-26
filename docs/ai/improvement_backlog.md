@@ -23,7 +23,6 @@ This backlog is for future Codex sessions and human review. Keep it focused on p
 
 ## Priority 3: Maintenance Guardrails
 
-- Add a lightweight Markdown link check script.
 - Add a dataset validation script for expected files, columns, and row counts.
 - Add tests for scripts that do not require SQL Server, Tableau, Excel, or internet access.
 - Add GitHub Actions only if automatic validation becomes useful.
@@ -39,6 +38,7 @@ This backlog is for future Codex sessions and human review. Keep it focused on p
 - Added support ladders for Modules 2, 4, 5, and 6 with hints, expected outputs, and solutions.
 - Added capstone completion support with a rubric, write-up template, and example project.
 - Added a first-session guide, expanded setup rescue guide, module readiness checks, and private learner helper guide.
+- Added a lightweight local course file and Markdown link validator.
 
 ## Parking Lot
 

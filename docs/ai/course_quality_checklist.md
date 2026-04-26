@@ -66,6 +66,7 @@ Use this checklist when polishing lessons, scripts, exercises, or capstone mater
 
 - Run `git status --short` to confirm intended files changed.
 - For Markdown changes, scan headings and links.
+- Run `python check_course_files.py` after changing learner-facing docs.
 - For Python changes, run `python -m compileall -q .`.
 - Run representative scripts if they do not require unavailable tools.
 - Note any checks that were skipped and why.

@@ -94,7 +94,7 @@ After Module 1, you will have a few tools installed. Here is when you use each o
 
 ## Getting Started
 
-**First time here?** Start with [START_HERE.md](START_HERE.md). It explains how to use this course, how to check your setup, and how to ask for help if you get stuck.
+**First time here?** Start with [FIRST_30_MINUTES.md](FIRST_30_MINUTES.md), then read [START_HERE.md](START_HERE.md). These explain how to use this course, how to check your setup, and how to ask for help if you get stuck.
 
 After that, begin with [Module 0 - What Is Data Analytics](00-what-is-data-analytics/).
 
@@ -124,9 +124,19 @@ Everything else is covered in Modules 0 and 1.
 
 | Resource | What It Is |
 |----------|-----------|
+| [First 30 Minutes](FIRST_30_MINUTES.md) | Small first-session guide for getting oriented |
 | [Start Here](START_HERE.md) | Friendly first stop for self-paced learners |
 | [Progress Tracker](progress_tracker.md) | Checklist for tracking your course progress |
 | [Get Help](GET_HELP.md) | Template for asking for help when you are stuck |
+| [Helping A Learner](HELPING_A_LEARNER.md) | Private guide for supporting a friend or family learner |
 | [Cheatsheets](cheatsheets/) | Printable quick-reference sheets for Excel, pandas, SQL, matplotlib, Tableau |
 | [Sample Data](data/) | The CSV files used throughout the course |
 | [Module 0](00-what-is-data-analytics/) | First course module |
+
+## Maintenance Check
+
+If you are editing the course files, run this from the main course folder to check required files and local Markdown links:
+
+```bash
+python check_course_files.py
+```
