@@ -2,6 +2,14 @@
 
 This module covers two tools, so the exercises are split into two parts.
 
+## Support Ladder
+
+Try the exercises first, then use the support files in this order:
+
+1. [Hints](hints/lesson_10_hints.md) - small nudges without final answers.
+2. [Expected outputs](expected_outputs/lesson_10_expected_outputs.md) - check your chart data and quality.
+3. [Matplotlib solutions](solutions/lesson_10_matplotlib_solutions.py) and [Tableau solution guide](solutions/lesson_10_tableau_solution_guide.md) - full solutions after you have tried.
+
 ---
 
 # Part 1: Code-Based Visualization (matplotlib / seaborn)
@@ -59,6 +67,7 @@ Take any chart above and make it presentation-ready with seaborn styling:
 
 - Use `sns.set_style("whitegrid")`
 - Bold title with larger font
+- Save as `exercise_05_presentation_ready.png`
 - Save with `dpi=150` for higher quality
 
 ---
@@ -112,16 +121,6 @@ Choose any dataset and build a complete dashboard that:
 
 ---
 
-## Hints
+## Need Help?
 
-**Exercise 1:** `avg_salary = df.groupby("department")["salary"].mean()`
-
-**Exercise 2:** `dept_counts = df["department"].value_counts()` then `plt.pie(dept_counts.values, labels=dept_counts.index, autopct="%1.1f%%")`
-
-**Exercise 3:** Convert dates: `df["signup_date"] = pd.to_datetime(df["signup_date"])`, group with `.dt.to_period("M")`
-
-**Exercise 4:** Calculate years: `(datetime.now() - df["hire_date"]).dt.days / 365.25`
-
-**Exercise 5:** `import seaborn as sns; sns.set_style("whitegrid"); plt.savefig("file.png", dpi=150)`
-
-**Exercise 6-8:** Create pivot-style summaries in Tableau first, then build charts. Use the funnel icon to make charts act as filters.
+Use the [hints](hints/lesson_10_hints.md) first. If you want to check your work, use the [expected outputs](expected_outputs/lesson_10_expected_outputs.md). Save the full solutions for last.
