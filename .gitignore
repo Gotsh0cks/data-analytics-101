@@ -1,0 +1,31 @@
+# Python cache and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments and secrets
+.venv/
+venv/
+env/
+.env
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local worktrees
+.worktrees/
+worktrees/
+
+# Learner-generated exercise outputs
+exercise_*.png
+chart_*.png
+*.log
+~$*.xlsx
