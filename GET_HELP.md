@@ -46,6 +46,6 @@ What did check_setup.py print?
 - Make sure you extracted the ZIP file before running scripts.
 - Make sure the terminal is open inside VS Code.
 - Make sure Python installed correctly by running `python --version`.
-- Make sure packages installed by running `python -m pip install -r requirements.txt`.
+- Make sure core packages installed by running `python -m pip install pandas matplotlib seaborn openpyxl requests`.
 
 You do not need to solve the problem before asking. The goal is to share enough context that someone can help you quickly.
