@@ -39,6 +39,9 @@ Use this checklist to track your progress. In VS Code, you can edit this file an
 - [ ] Completed Lesson 4: Pivot Tables.
 - [ ] Completed Lesson 5: Excel Charts.
 - [ ] Tried the Module 2 exercises.
+- [ ] Used Module 2 hints only after trying.
+- [ ] Compared your work to the expected outputs.
+- [ ] Reviewed the full written solutions after trying.
 
 ## Module 3: Data Analysis With Python
 
@@ -63,6 +66,9 @@ Use this checklist to track your progress. In VS Code, you can edit this file an
 - [ ] Completed Lesson 5: Subqueries and CTEs.
 - [ ] Completed Lesson 6: Python and SQL.
 - [ ] Tried the Module 4 exercises.
+- [ ] Used Module 4 hints only after trying.
+- [ ] Compared your queries to the expected outputs.
+- [ ] Reviewed the SQL solutions after trying.
 
 ## Module 5: Visualization
 
@@ -77,6 +83,9 @@ Use this checklist to track your progress. In VS Code, you can edit this file an
 - [ ] Built a Tableau dashboard.
 - [ ] Published or saved your Tableau work.
 - [ ] Tried the Module 5 exercises.
+- [ ] Used Module 5 hints only after trying.
+- [ ] Compared your chart data to the expected outputs.
+- [ ] Reviewed the matplotlib and Tableau solutions after trying.
 
 ## Module 6: Real-World Data
 
@@ -85,10 +94,14 @@ Use this checklist to track your progress. In VS Code, you can edit this file an
 - [ ] Downloaded public datasets.
 - [ ] Explored downloaded datasets.
 - [ ] Tried the Module 6 exercises.
+- [ ] Used Module 6 hints only after trying.
+- [ ] Compared your findings to the expected outputs.
+- [ ] Reviewed the solution script after trying.
 
 ## Module 7: Capstone Project
 
 - [ ] Read the Module 7 README.
+- [ ] Reviewed the capstone rubric.
 - [ ] Chose a dataset.
 - [ ] Wrote 3 to 5 questions.
 - [ ] Explored the data.
@@ -96,5 +109,7 @@ Use this checklist to track your progress. In VS Code, you can edit this file an
 - [ ] Analyzed the data with Python or SQL.
 - [ ] Created at least 3 charts.
 - [ ] Built a Tableau dashboard.
+- [ ] Used the write-up template.
+- [ ] Compared against the example project only after drafting your own project.
 - [ ] Wrote a short summary of findings.
 - [ ] Saved or shared the finished project.

@@ -6,28 +6,20 @@ This backlog is for future Codex sessions and human review. Keep it focused on p
 
 - Fix module-number drift in lesson and script headings.
 - Make Python lesson scripts resilient to being run from the repo root or lesson folder.
-- Add a learner-facing `START_HERE.md`.
-- Add a `progress_tracker.md` checklist.
-- Add `.gitignore` entries for Python caches and generated local files.
 - Pin or bound core dependencies in `requirements.txt`.
-- Add a simple setup verification script that checks Python packages and expected data files.
 
 ## Priority 1: Learning Feedback
 
-- Add expected output blocks to Module 3 Python lessons.
-- Add expected output blocks to Module 5 chart scripts.
-- Add solution files for Module 3 exercises.
-- Add solution files or answer notes for SQL exercises.
-- Add "check your understanding" questions to each module.
+- Add expected output blocks to individual lesson pages where learners commonly need a checkpoint, especially Python and visualization lessons.
+- Add short "check your understanding" questions to each module.
 - Add common-mistake callouts near terminal, path, package, and SQL Server steps.
+- Add a small "what good looks like" note to chart-heavy lessons so learners can judge readability, labels, and formatting.
 
 ## Priority 2: Capstone Support
 
-- Add a capstone rubric.
-- Add a completed example capstone using one included external dataset.
-- Add a short write-up template.
 - Add a Tableau dashboard checklist.
-- Add "good enough to finish" guidance for learners who get stuck polishing.
+- Add optional project-extension ideas for learners who finish early.
+- Add screenshots or sample exported charts after the example project format stabilizes.
 
 ## Priority 3: Maintenance Guardrails
 
@@ -36,6 +28,16 @@ This backlog is for future Codex sessions and human review. Keep it focused on p
 - Add tests for scripts that do not require SQL Server, Tableau, Excel, or internet access.
 - Add GitHub Actions only if automatic validation becomes useful.
 - Document how to refresh generated Excel, Tableau-ready CSV, and chart assets.
+
+## Recently Completed
+
+- Added a learner-facing `START_HERE.md`.
+- Added a `progress_tracker.md` checklist.
+- Added `.gitignore` entries for Python caches, local worktrees, and generated exercise outputs.
+- Added a setup verification script that checks Python packages and expected data files.
+- Added a Module 3 exercise support ladder with hints, expected outputs, and a solution script.
+- Added support ladders for Modules 2, 4, 5, and 6 with hints, expected outputs, and solutions.
+- Added capstone completion support with a rubric, write-up template, and example project.
 
 ## Parking Lot
 
