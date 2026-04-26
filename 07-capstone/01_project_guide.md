@@ -2,6 +2,10 @@
 
 Follow these steps to complete your capstone project. Each step uses skills from a specific module.
 
+If you want a checkpoint while you work, use the [rubric](rubric.md). If you want help writing up your results, copy the [write-up template](writeup_template.md). If you want to see one finished example, look at the [Titanic example project](example_project/).
+
+The example is not the required project. It is just a model for what "good enough" can look like.
+
 ---
 
 ## Step 1: Choose Your Dataset
@@ -51,9 +55,13 @@ Open `03_project_template.py` (or create your own script) and:
 5. **Print your findings** clearly
 
 ```python
+from pathlib import Path
+
 import pandas as pd
 
-df = pd.read_csv("../data/external/titanic.csv")
+ROOT_DIR = Path(__file__).resolve().parents[1]
+
+df = pd.read_csv(ROOT_DIR / "data" / "external" / "titanic.csv")
 
 # Example: survival rate by class
 survival = df.groupby("Pclass")["Survived"].mean() * 100
@@ -89,11 +97,16 @@ Create at least 3 charts that support your findings:
 2. **A chart of your choice** (line, scatter, pie whatever fits your data)
 3. **A polished chart** with seaborn styling for your portfolio
 
-Save each chart as a PNG file.
+Save each chart as a PNG file. If your script is in `07-capstone`, save generated charts to `capstone_outputs/`; that folder is ignored by git.
 
 ```python
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+OUTPUT_DIR = Path(__file__).resolve().parent / "capstone_outputs"
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 sns.set_style("whitegrid")
 
@@ -103,8 +116,8 @@ plt.ylabel("Survival Rate (%)")
 plt.xlabel("Passenger Class")
 plt.xticks(rotation=0)
 plt.tight_layout()
-plt.savefig("survival_by_class.png", dpi=150)
-plt.show()
+plt.savefig(OUTPUT_DIR / "survival_by_class.png", dpi=150)
+plt.close()
 ```
 
 ---
@@ -122,10 +135,11 @@ plt.show()
 ## Step 7: Publish and Summarize
 
 1. **Publish** your Tableau dashboard to Tableau Public
-2. **Write a brief summary** (3-5 sentences) of what you found. This could be:
+2. **Write a brief summary** of what you found. You can use the [write-up template](writeup_template.md), or keep it to 3-5 sentences if that is enough. This could be:
    - A comment on your Tableau Public profile
    - A text file in this folder
    - Notes for a future resume or LinkedIn post
+3. **Check your work** with the [capstone rubric](rubric.md). Aim for "ready to share," not perfect.
 
 **Example summary:**
 > "I analyzed the Titanic passenger dataset to understand survival patterns. First-class passengers survived at 63% vs. just 24% for third-class. Women survived at much higher rates than men across all classes. The data suggests that both wealth and gender strongly influenced survival outcomes."

@@ -28,7 +28,15 @@ Make sure you have completed all previous modules. You will need:
 
 Follow the step-by-step instructions in [Project Guide](01_project_guide.md) for a structured walkthrough.
 
-If you prefer to work independently, use [project_template.py](03_project_template.py) as a starter script and [Example Questions](02_example_questions.md) for inspiration on what questions to answer.
+Use these support files when you want a little more structure:
+
+- [Rubric](rubric.md) to check whether your project is ready to share
+- [Write-up template](writeup_template.md) to help you explain your work
+- [Titanic example project](example_project/) to see one complete beginner-sized example
+- [Project template](03_project_template.py) as a starter script
+- [Example questions](02_example_questions.md) for inspiration on what to answer
+
+The example project is only one possible path. Your capstone can use a different dataset, different questions, and different charts.
 
 ## Deliverables
 
@@ -41,7 +49,7 @@ By the end of this project, you should have:
 
 ## Time Estimate
 
-Plan for 3-5 hours, depending on how deep you go. There is no "right" answer the goal is to practice the full workflow.
+Plan for 3-5 hours, depending on how deep you go. There is no "right" answer. The goal is to practice the full workflow.
 
 ## You Made It!
 
