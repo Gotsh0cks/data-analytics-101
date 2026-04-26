@@ -8,6 +8,14 @@ Make sure you're connected to the `DataAnalytics101` database before running you
 USE DataAnalytics101;
 ```
 
+## Support Ladder
+
+Try the exercises on your own first. When you need help, use these in order:
+
+1. Start with [hints](hints/lesson_07_hints.md) for a small nudge.
+2. Check [expected outputs](expected_outputs/lesson_07_expected_outputs.md) to see whether your result matches.
+3. Compare with the [SQL solutions](solutions/lesson_07_solutions.sql) or the [Python + SQL solution](solutions/lesson_07_python_sql_solution.py) only after you have tried the problem.
+
 ---
 
 ## Exercise 1: Employees in the Sales Department
@@ -30,7 +38,7 @@ What is the total revenue for each product? Show the product name and its total 
 
 ## Exercise 4: Customer Signups by Year
 
-How many customers signed up in each year? Show the year and the count of customers. (You'll need to extract the year from the signup_date column.)
+How many customers signed up in each year? Show the year and the count of customers.
 
 ---
 
@@ -54,79 +62,7 @@ Write a query using a CTE to find the department with the highest average salary
 
 ## Exercise 8 (BONUS): Products Never Sold in the West
 
-Find products that have never been sold in the "West" region. This is trickier than it looks think about which products *do* appear in the West, and then find the ones that don't.
-
----
-
-## Hints
-
-Only look at these after you've tried each exercise on your own!
-
-<details>
-<summary>Hint for Exercise 1</summary>
-
-Use `SELECT ... FROM Employees WHERE department = '...'`. Remember that text values go in single quotes.
-
-</details>
-
-<details>
-<summary>Hint for Exercise 2</summary>
-
-Use `SELECT TOP 5` with `ORDER BY salary DESC` to get the five highest salaries.
-
-</details>
-
-<details>
-<summary>Hint for Exercise 3</summary>
-
-You need `SUM(revenue)` combined with `GROUP BY product`. Add `ORDER BY` at the end to sort.
-
-</details>
-
-<details>
-<summary>Hint for Exercise 4</summary>
-
-T-SQL has a `YEAR()` function that extracts the year from a date. Use `YEAR(signup_date)` in both your SELECT and GROUP BY.
-
-</details>
-
-<details>
-<summary>Hint for Exercise 5</summary>
-
-Use a subquery in the WHERE clause: `WHERE salary > (SELECT AVG(salary) FROM Employees)`.
-
-</details>
-
-<details>
-<summary>Hint for Exercise 6</summary>
-
-Use `COUNT(*)` with `GROUP BY region`. Sort with `ORDER BY ... DESC`. If you only want the top one, add `TOP 1`.
-
-</details>
-
-<details>
-<summary>Hint for Exercise 7</summary>
-
-Define a CTE that calculates `AVG(salary)` grouped by department. Then select from the CTE with `ORDER BY avg_salary DESC` and use `TOP 1` to get just the highest.
-
-</details>
-
-<details>
-<summary>Hint for Exercise 8</summary>
-
-One approach: use `WHERE product NOT IN (SELECT DISTINCT product FROM Sales WHERE region = 'West')`. You need to search the full Sales table for products that are absent from the West-region subset.
-
-</details>
-
----
-
-## How Did You Do?
-
-- **Exercises 1-3:** These cover SELECT, WHERE, GROUP BY, and ORDER BY the fundamentals.
-- **Exercises 4-6:** These require combining multiple concepts together.
-- **Exercises 7-8:** These use CTEs and subqueries for more advanced analysis.
-
-If you got through all eight, you have a solid foundation in T-SQL.
+Find products that have never been sold in the "West" region.
 
 ---
 
@@ -141,9 +77,13 @@ Write a Python script that:
 
 See `lesson_06_python_and_sql.py` for connection examples.
 
-<details>
-<summary>Hint for Exercise 9</summary>
+---
 
-Use `pd.read_sql()` with a GROUP BY query. Then use `df.plot(kind="bar", x="category", y="total_revenue")` and `plt.show()`.
+## How Did You Do?
 
-</details>
+- **Exercises 1-3:** These cover SELECT, WHERE, GROUP BY, and ORDER BY the fundamentals.
+- **Exercises 4-6:** These require combining multiple concepts together.
+- **Exercises 7-8:** These use CTEs, joins, and subqueries for more advanced analysis.
+- **Exercise 9:** This connects SQL results to Python, pandas, and a chart.
+
+If you got through these, you have a solid foundation in T-SQL and the Python + SQL workflow.

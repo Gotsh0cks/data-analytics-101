@@ -26,6 +26,7 @@ worktrees/
 
 # Learner-generated exercise outputs
 05-visualization/exercise_outputs/
+04-databases-and-sql/solutions/python_sql_revenue_by_category.png
 07-capstone/capstone_outputs/
 07-capstone/example_project/outputs/
 exercise_*.png
