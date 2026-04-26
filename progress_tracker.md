@@ -7,6 +7,7 @@ Use this checklist to track your progress. In VS Code, you can edit this file an
 - [ ] Downloaded or received the course files.
 - [ ] Extracted the ZIP file if needed.
 - [ ] Opened the main course folder.
+- [ ] Read `FIRST_30_MINUTES.md`.
 - [ ] Read `START_HERE.md`.
 - [ ] Read the main `README.md`.
 

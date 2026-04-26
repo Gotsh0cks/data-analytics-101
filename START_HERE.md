@@ -4,6 +4,8 @@ Welcome to Data Analytics 101. This course is for complete beginners, especially
 
 You do not need programming experience. You only need a Windows computer, an internet connection, and a willingness to try things even when they feel unfamiliar.
 
+If this is your first sitting, start with [FIRST_30_MINUTES.md](FIRST_30_MINUTES.md). It gives you a small first-session path so the whole course does not feel like one giant setup task.
+
 ## What This Course Teaches
 
 You will learn how to:
@@ -36,11 +38,12 @@ Each folder has a `README.md` file that tells you what to do next.
 
 Start with these steps:
 
-1. Read the main `README.md`.
-2. Open `progress_tracker.md` so you can check off your progress.
-3. Complete Module 0.
-4. Complete Module 1.
-5. After installing Python and the required packages, run this command from the main course folder:
+1. Read `FIRST_30_MINUTES.md`.
+2. Read the main `README.md`.
+3. Open `progress_tracker.md` so you can check off your progress.
+4. Complete Module 0.
+5. Complete Module 1.
+6. After installing Python and the required packages, run this command from the main course folder:
 
 ```bash
 python check_setup.py
