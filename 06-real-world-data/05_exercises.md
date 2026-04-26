@@ -1,12 +1,20 @@
-# Module 4 Exercises
+# Module 6 Exercises
 
 Time to practice finding and working with external data. These exercises build on the datasets you downloaded with `02_download_public_datasets.py`.
+
+## Support Ladder
+
+Use these only after you have tried:
+
+1. [Hints](hints/05_hints.md) if you are stuck.
+2. [Expected outputs](expected_outputs/05_expected_outputs.md) to check your answers.
+3. [Full Python solution](solutions/05_solutions.py) after you have tried and compared your work.
 
 ---
 
 ## Exercise 1: Explore the Titanic Dataset
 
-Load `../data/external/titanic.csv` and answer these questions:
+Load `data/external/titanic.csv` from the course folder and answer these questions:
 
 1. How many passengers are in the dataset?
 2. What percentage of passengers survived?
@@ -21,7 +29,7 @@ Load `../data/external/titanic.csv` and answer these questions:
 
 ## Exercise 2: Tipping Patterns
 
-Load `../data/external/tips.csv` and find out:
+Load `data/external/tips.csv` from the course folder and find out:
 
 1. What is the average tip amount?
 2. Which day of the week has the highest average tip?
@@ -35,7 +43,7 @@ Load `../data/external/tips.csv` and find out:
 
 ## Exercise 3: Iris Species Comparison
 
-Load `../data/external/iris.csv` and compare the three flower species:
+Load `data/external/iris.csv` from the course folder and compare the three flower species:
 
 1. What is the average petal length for each species?
 2. Which species has the widest sepals on average?
@@ -55,20 +63,4 @@ Visit one of the sources listed in `01_dataset_guide.md` and download a dataset 
 3. Check for missing values
 4. Write down 3 questions you could answer with this data
 
-This is an open-ended exercise there's no single right answer. The goal is to practice the full workflow of finding, loading, and exploring unfamiliar data.
-
----
-
-## Hints
-
-**Exercise 1:**
-Use `pd.read_csv()` to load the file. For survival percentage: the "Survived" column is 0 or 1, so `.mean() * 100` gives you the percentage. For missing values: `df.isnull().sum()`.
-
-**Exercise 2:**
-Use `.groupby("day")["tip"].mean()` to get average tip by day. For dinner vs. lunch, group by the "time" column instead.
-
-**Exercise 3:**
-Use `.groupby("species")` and then select the column you want to average. For widest sepals, look at the "sepal_width" column.
-
-**Exercise 4:**
-Start with `df.shape`, `df.dtypes`, `df.head()`, and `df.isnull().sum()`. These four commands tell you most of what you need to know about any new dataset.
+This is an open-ended exercise; there is no single right answer. The goal is to practice the full workflow of finding, loading, and exploring unfamiliar data.
